@@ -1,0 +1,39 @@
+body.notebook {
+	background-image: url('/img/spiral.gif');
+	background-repeat: repeat-y;
+	margin-left: 3em;
+}
+
+div.namedIcon {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+div.namedIcon>a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: small;
+	text-shadow: 1px 1px darkgray;
+	overflow: hidden;
+}
+div.namedIcon>a>img {
+	display: block;
+	width: inherit;
+}
+
+div.radiusNamedGroup {
+	position: relative;
+	border: 2px ridge lightgray;
+	border-radius: 5px;
+	display: block;
+	margin: 0 0 1em;
+	padding: 0.75em .5em 1px;
+}
+div.radiusNamedGroup>span.name {
+	position: absolute;
+	top: -0.8em;
+	left: 0.5em;
+	vertical-align: top;
+	padding: 2px 5px;
+	background-color: white;
+}
