@@ -15,6 +15,7 @@
 	};
 
 	// Notified if the device is disconnected
+	// However in reality, the _deviceRemoved method is not called when serial devices are unplugged
 	ext._deviceRemoved = function(dev) {
 		if (device != dev) return;
 		device = null;
@@ -41,17 +42,21 @@
 
 	var CMD_QueryHeading = '^'.charCodeAt(),
 	    CMD_ProbeObstacle = '~'.charCodeAt();
+	var deviceProperties = {
+		d: 0,
+		h: 0,
+		cbProbeObstacle: undefined,
+		cbQueryHeading: undefined
+	};
 
 	function tryNextDevice() {
 		device = deviceQueue.shift();
 		if (!device) return;
 
+		console.log('Attempting connection with ' + device.id);
 		device.open({ stopBits: 0, bitRate: 115200, ctsFlowControl: 0 });
 		device.set_receive_handler(rxBytes);
-
-		var cmdQueryHeading = new Uint8Array(1);
-		cmdQueryHeading[0] = CMD_QueryHeading;
-		device.send(cmdQueryHeading.buffer);
+		txByte(CMD_QueryHeading);
 
 		watchdog = setTimeout(function() {
 			device.set_receive_handler(null);
@@ -61,6 +66,12 @@
 		}, 1000);
 	}
 
+	function txByte(v) {
+		var data = new Uint8Array(1);
+		data[0] = v;
+		device.send(data.buffer);
+	}
+
 	function rxBytes(ab) {
 		var data = new Uint8Array(ab);
 		cmdBuf.add(data).parseCSV(function(cmd, value) {
@@ -68,13 +79,27 @@
 				clearTimeout(watchdog);
 				watchdog = null;
 			}
-			console.log(cmd + ':=' + parseFloat(value));
+			deviceProperties[cmd] = parseFloat(value);
+			if (cmd == 'd') {
+				var callback = deviceProperties['cbProbeObstacle'];
+				if (typeof callback == 'function') {
+					callback(deviceProperties[cmd]);
+					deviceProperties['cbProbeObstacle'] = undefined;
+				}
+			}
+			if (cmd == 'h') {
+				var callback = deviceProperties['cbQueryHeading'];
+				if (typeof callback == 'function') {
+					callback(deviceProperties[cmd]);
+					deviceProperties['cbQueryHeading'] = undefined;
+				}
+			}
 		});
 	}
 
 	/* Constants */
 	var MAX_BUF_LEN = 40,
-	    DELIMITER = 10;
+	    DELIMITER = 13;
 
 	/* Circular queue object */
 	var cmdBuf = {
@@ -123,11 +148,50 @@
 		}
 	};
 
+	ext.getHeading = function(callback) {
+		deviceProperties['cbQueryHeading'] = callback;
+		txByte(CMD_QueryHeading);
+	};
+
+	ext.probeObstacle = function(callback) {
+		deviceProperties['cbProbeObstacle'] = callback;
+		txByte(CMD_ProbeObstacle);
+	};
+
+	// Check for GET param 'lang'
+	var paramString = window.location.search.replace(/^\?|\/$/g, ''),
+	    vars = paramString.split("&"),
+	    lang = 'en';
+	for (var i = 0; i < vars.length; i++) {
+		var pair = vars[i].split('=');
+		if (pair.length > 1 && pair[0]=='lang')
+			lang = pair[1];
+	}
+
+	var blocks = {
+		en: [
+			// Block type, block name, function name
+			['R', 'Get heading', 'getHeading'],
+			['R', 'Ultrasonic ping', 'probeObstacle']
+		],
+		zh: [
+			// Block type, block name, function name
+			['R', '讀取方向角', 'getHeading'],
+			['R', '超音波偵測距離', 'probeObstacle']
+		]
+	};
+	var menus = {
+		en: {
+		},
+		zh: {
+		}
+	};
+
 	// Block and block menu descriptions
 	var descriptor = {
-		blocks: [
-			// Block type, block name, function name
-		]
+		blocks: blocks[lang],
+		menus: menus[lang],
+		url: ''
 	};
 
 	// Register the extension
