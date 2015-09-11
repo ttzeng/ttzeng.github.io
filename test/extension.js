@@ -5,6 +5,7 @@
 	// Cleanup function when the extension is unloaded
 	ext._shutdown = function() {
 		if (device) {
+			setMotor();
 			device.close();
 			device = null;
 		}
@@ -18,6 +19,7 @@
 	// However in reality, the _deviceRemoved method is not called when serial devices are unplugged
 	ext._deviceRemoved = function(dev) {
 		if (device != dev) return;
+		setMotor();
 		device = null;
 	};
 
@@ -42,11 +44,14 @@
 
 	var CMD_QueryHeading = '^'.charCodeAt(),
 	    CMD_ProbeObstacle = '~'.charCodeAt();
+	var CMD_SetMotor = 128,
+	    CMD_SetMotorChannelR = 32,
+	    CMD_SetMotorChannelL = 16,
+	    CMD_SetMotorBackward = 8;
 	var deviceProperties = {
 		d: 0,
 		h: 0,
-		cbProbeObstacle: undefined,
-		cbQueryHeading: undefined
+		callback: { 'd': [], 'h': [] }
 	};
 
 	function tryNextDevice() {
@@ -80,21 +85,27 @@
 				watchdog = null;
 			}
 			deviceProperties[cmd] = parseFloat(value);
-			if (cmd == 'd') {
-				var callback = deviceProperties['cbProbeObstacle'];
-				if (typeof callback == 'function') {
-					callback(deviceProperties[cmd]);
-					deviceProperties['cbProbeObstacle'] = undefined;
-				}
-			}
-			if (cmd == 'h') {
-				var callback = deviceProperties['cbQueryHeading'];
-				if (typeof callback == 'function') {
-					callback(deviceProperties[cmd]);
-					deviceProperties['cbQueryHeading'] = undefined;
-				}
-			}
+			var callback = deviceProperties.callback[cmd].shift();
+			if (typeof callback =='function')
+				callback(deviceProperties[cmd]);
 		});
+	}
+
+	function setMotor(channel, backward, level) {
+		channel  = (typeof channel  !== 'undefined')? channel  : 0;
+		backward = (typeof backward !== 'undefined')? backward : 0;
+		level    = (typeof level    !== 'undefined')? level    : 0;
+
+		var cmd = CMD_SetMotor + level;
+		if (backward != 0) cmd += CMD_SetMotorBackward;
+		switch(channel) {
+			case 0: cmd += CMD_SetMotorChannelR + CMD_SetMotorChannelL;
+			        break;
+			case 1: cmd += CMD_SetMotorChannelL;
+			        break;
+			case 2: cmd += CMD_SetMotorChannelR;
+		}
+		txByte(cmd);
 	}
 
 	/* Constants */
@@ -148,13 +159,31 @@
 		}
 	};
 
+	ext.resetAll = function() {
+		cmdBuf.head = cmdBuf.tail = 0;
+		var callback;
+		while ((callback = deviceProperties.callback.d.shift()) != undefined)
+			if (typeof callback == 'function')
+				callback(deviceProperties.d);
+		while ((callback = deviceProperties.callback.h.shift()) != undefined)
+			if (typeof callback == 'function')
+				callback(deviceProperties.h);
+	}
+
+	ext.driveMotor = function(channel, dir, power, callback) {
+		setMotor(descriptor.menus.motorChannel.indexOf(channel),
+		         descriptor.menus.motorDir.indexOf(dir),
+		         descriptor.menus.motorPower.indexOf(power));
+		setTimeout(function() { callback(); }, 50);
+	};
+
 	ext.getHeading = function(callback) {
-		deviceProperties['cbQueryHeading'] = callback;
+		deviceProperties.callback['h'].push(callback);
 		txByte(CMD_QueryHeading);
 	};
 
 	ext.probeObstacle = function(callback) {
-		deviceProperties['cbProbeObstacle'] = callback;
+		deviceProperties.callback['d'].push(callback);
 		txByte(CMD_ProbeObstacle);
 	};
 
@@ -171,19 +200,27 @@
 	var blocks = {
 		en: [
 			// Block type, block name, function name
+			['w', 'Set motor %m.motorChannel %m.motorDir power %m.motorPower', 'driveMotor', 'Both', 'Forward', '0%'],
 			['R', 'Get heading', 'getHeading'],
 			['R', 'Ultrasonic ping', 'probeObstacle']
 		],
 		zh: [
 			// Block type, block name, function name
+			['w', '驅動 %m.motorChannel 馬達 %m.motorDir 速率 %m.motorPower', 'driveMotor', '左右', '正轉', '0%'],
 			['R', '讀取方向角', 'getHeading'],
 			['R', '超音波偵測距離', 'probeObstacle']
 		]
 	};
 	var menus = {
 		en: {
+			motorChannel: ['Both', 'Left', 'Right'],
+			motorDir: ['Forward', 'Backward'],
+			motorPower: ['0%', '14%', '28%', '43%', '57%', '72%', '86', '100%']
 		},
 		zh: {
+			motorChannel: ['左右', '左', '右'],
+			motorDir: ['正轉', '反轉'],
+			motorPower: ['0%', '14%', '28%', '43%', '57%', '72%', '86', '100%']
 		}
 	};
 
