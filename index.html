@@ -14,15 +14,29 @@
 <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/css/default.css"/>
-<script src="/js/supports.js"></script>
-
-<script type="text/javascript">
-$(function() {
-});
+<!-- Capacitor native runtime-->
+<script type="module"
+    src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js">
 </script>
+<script nomodule
+    src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js">
+</script>
+
+<link rel="stylesheet" type="text/css" href="/css/default.css"/>
 </head>
 <body class="notebook">
+<script type="module">
+    import { createApp } from "https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js";
+    import App from "./js/rootComponent.js";
+
+    // A Vue app starts by creating a new app instance with createApp() and passing an object as
+    // the root component.
+    const app = createApp(App);
+
+    // Calling the .mount() method to start rendering the root component inside the mount
+    // container element.
+    app.mount('#vapp');
+</script>
 <div data-role="page">
     <div data-role="header">
         <div data-role="navbar">
@@ -32,6 +46,11 @@ $(function() {
         </div>
     </div>
     <div role="main" class="ui-content">
+        <div id="vapp">
+            <!-- Vue will use this container's innerHTML as the template if the root component does not
+                 have a 'template' option. This In-DOM-Template is often used in conjunction with
+                 server-side frameworks, where the root template is generated dynamically by the server. -->
+        </div>
         <div data-role="collapsible">
             <h1>理財</h1>
             <div class="radiusNamedGroup">

@@ -1,0 +1,11 @@
+{
+  "appId": "com.example.sample",
+  "appName": "sample",
+  "bundledWebRuntime": true,
+  "webDir": "./www",
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}

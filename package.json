@@ -1,0 +1,21 @@
+{
+  "name": "sample",
+  "version": "0.0.1",
+  "description": "My Sample App",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/core": "^4.8.0",
+    "@capacitor/device": "^4.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest",
+    "vite": "^2.9.13"
+  },
+  "author": "",
+  "license": "ISC"
+}

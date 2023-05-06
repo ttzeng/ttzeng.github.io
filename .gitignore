@@ -1,0 +1,13 @@
+# 'Finder.' generated Desktop Services Store artifacts on macOS
+.DS_Store
+
+# NPM / project build artifacts
+node_modules/
+package-lock.json
+/www
+
+# Editor directories and files
+.idea/
+.vscode/
+*.map
+.sourcemaps
