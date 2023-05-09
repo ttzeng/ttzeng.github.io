@@ -1,3 +1,4 @@
+import { CapacitorHttp } from "https://unpkg.com/@capacitor/core@latest/dist/index.js";
 import namedIcon from "./namedIcon.js";
 
 export default {
@@ -6,6 +7,7 @@ export default {
     // to its reactivity system to trigger reactive updates.
     data() {
         return {
+            adviceOfDay: "",
             banks: [
                 { title: "台灣銀行",
                   link: "https://ebank.bot.com.tw/",
@@ -56,6 +58,18 @@ export default {
     components: {
         namedIcon
     },
+    // Hooks to be called at different stages of the instance's lifecycle.
+    created() {
+        const getAdvice = async () => {
+            const options = {
+                // Advice Slip JSON API (https://api.adviceslip.com)
+                url: "https://api.adviceslip.com/advice"
+            };
+            const response = await CapacitorHttp.get(options);
+            this.adviceOfDay = JSON.parse(response.data).slip.advice;
+        };
+        getAdvice();
+    },
     // The template of the rendered DOM to the component.
     template: /* html */`
     <div data-role="page">
@@ -78,6 +92,9 @@ export default {
                     <named-icon v-for="item in securities" :link="item.link" :icon="item.icon">{{item.title}}</named-icon>
                 </div>
             </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h3>{{ adviceOfDay }}</h3>
         </div>
     </div>`
 };
