@@ -1,13 +1,8 @@
-import { CapacitorHttp } from "https://unpkg.com/@capacitor/core@latest/dist/index.js";
 import namedIcon from "./namedIcon.js";
 
 export default {
-    // Use data() option to declare an object that represent reactive state of a component.
-    // Vue calls this function when creating a new component instance, the object is then added
-    // to its reactivity system to trigger reactive updates.
     data() {
         return {
-            adviceOfDay: "",
             banks: [
                 { title: "台灣銀行",
                   link: "https://ebank.bot.com.tw/",
@@ -54,47 +49,22 @@ export default {
             ]
         }
     },
-    // Register any imported components to create the tags associated with those components.
     components: {
         namedIcon
     },
-    // Hooks to be called at different stages of the instance's lifecycle.
-    created() {
-        const getAdvice = async () => {
-            const options = {
-                // Advice Slip JSON API (https://api.adviceslip.com)
-                url: "https://api.adviceslip.com/advice"
-            };
-            const response = await CapacitorHttp.get(options);
-            this.adviceOfDay = JSON.parse(response.data).slip.advice;
-        };
-        getAdvice();
+    mounted() {
+        $("[data-role='collapsible']").collapsible();
     },
-    // The template of the rendered DOM to the component.
     template: /* html */`
-    <div data-role="page">
-        <div data-role="header">
-            <div data-role="navbar">
-                <ul>
-                    <li><a href="#" class = "ui-btn-active">常用鍊結</a></li>
-                </ul>
-            </div>
+    <div data-role="collapsible">
+        <h1>理財</h1>
+        <div class="radiusNamedGroup">
+            <span class="name">銀行</span>
+            <named-icon v-for="item in banks" :link="item.link" :icon="item.icon">{{item.title}}</named-icon>
         </div>
-        <div role="main" class="ui-content">
-            <div data-role="collapsible">
-                <h1>理財</h1>
-                <div class="radiusNamedGroup">
-                    <span class="name">銀行</span>
-                    <named-icon v-for="item in banks" :link="item.link" :icon="item.icon">{{item.title}}</named-icon>
-                </div>
-                <div class="radiusNamedGroup">
-                    <span class="name">證券</span>
-                    <named-icon v-for="item in securities" :link="item.link" :icon="item.icon">{{item.title}}</named-icon>
-                </div>
-            </div>
-        </div>
-        <div data-role="footer" data-position="fixed">
-            <h3>{{ adviceOfDay }}</h3>
+        <div class="radiusNamedGroup">
+            <span class="name">證券</span>
+            <named-icon v-for="item in securities" :link="item.link" :icon="item.icon">{{item.title}}</named-icon>
         </div>
     </div>`
 };
