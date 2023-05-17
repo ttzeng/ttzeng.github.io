@@ -1,0 +1,22 @@
+{
+    "projects": [
+        { "url": "https://github.com/ttzeng/weave-apps/tree/master/MyWeaveApp",
+          "description": "Android Weave companion app for the Brillo MP3 jukebox demo"
+        },
+        { "url": "https://github.com/ttzeng/brillo-products/tree/master/Examples/demo",
+          "description": "The Brillo based MP3 jukebox demo on Minnowboard MAX"
+        },
+        { "url": "https://github.com/ttzeng/oc-jukebox-b2",
+          "description": "OCF Compliant Android Things Jukebox Demo (Main)"
+        },
+        { "url": "https://github.com/ttzeng/brillo-products/tree/master/brillo2/examples",
+          "description": "OCF Compliant Android Things Jukebox Demo"
+        },
+        { "url": "https://github.com/ttzeng/acrn-board-parser",
+          "description": "Standalone ACRN Board Parser"
+        },
+        { "url": "https://github.com/ttzeng/acrn-snap",
+          "description": "Snap packaging for ACRN"
+        }
+    ]
+}
