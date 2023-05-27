@@ -1,6 +1,5 @@
 import { CapacitorHttp } from "https://unpkg.com/@capacitor/core@latest/dist/index.js";
-import myLinks from "./myLinks.js";
-import myDeliverables from "./myDeliverables.js";
+import { defineAsyncComponent } from "https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js";
 
 export default {
     // Use data() option to declare an object that represent reactive state of a component.
@@ -12,18 +11,20 @@ export default {
             activeContent: "",
             contents: [
                 { key: "myLinks",
-                  label: "常用鍊結"
+                  label: "常用鍊結",
+                  enable: true,
                 },
                 { key: "myDeliverables",
-                  label: "成果發表"
-                }
+                  label: "成果發表",
+                  enable: true,
+                },
             ]
         }
     },
     // Register any imported components to create the tags associated with those components.
     components: {
-        myLinks,
-        myDeliverables
+        myLinks: defineAsyncComponent(()=>import("./myLinks.js")),
+        myDeliverables: defineAsyncComponent(()=>import("./myDeliverables.js")),
     },
     // Hooks to be called at different stages of the instance's lifecycle.
     created() {
@@ -47,6 +48,7 @@ export default {
                 <a href="#left-panel" class="ui-btn ui-btn-icon-notext ui-icon-grid">No text</a>
                 <a class="ui-btn ui-btn-icon-left"
                    v-for="tab in contents"
+                   v-show="tab.enable"
                    @click="activeContent = tab.key"
                    :key="tab.key"
                    :class="{ 'ui-btn-active': activeContent === tab.key,
