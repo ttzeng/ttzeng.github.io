@@ -22,6 +22,10 @@ export default {
                   label: "提示",
                   enable: true,
                 },
+                { key: "deviceInfo",
+                  label: "裝置資訊",
+                  enable: (Capacitor.isNativePlatform()),
+                },
             ]
         }
     },
@@ -30,6 +34,7 @@ export default {
         myLinks: defineAsyncComponent(()=>import("./myLinks.js")),
         myDeliverables: defineAsyncComponent(()=>import("./myDeliverables.js")),
         tips: defineAsyncComponent(()=>import("./tips.js")),
+        deviceInfo: defineAsyncComponent(()=>import("./deviceInfo.js")),
     },
     // Hooks to be called at different stages of the instance's lifecycle.
     created() {
