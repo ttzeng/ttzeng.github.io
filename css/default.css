@@ -8,6 +8,7 @@ div.namedIcon {
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
+	margin: 2px;
 }
 div.namedIcon>a {
 	display: inline-block;
