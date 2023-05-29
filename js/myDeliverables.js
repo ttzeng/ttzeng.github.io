@@ -6,16 +6,12 @@ export default {
         }
     },
     mounted() {
-        $.getJSON("/json/publishing.json", (data) => {
+        $.getJSON("/json/deliverables.json", (data) => {
             this.articles = data.articles;
-        }).done(() => {
-            $("#inputFilter").textinput();
-            $("#articleList").table().filterable();
-        });
-        $.getJSON("/json/projects.json", (data) => {
             this.projects = data.projects;
         }).done(() => {
-            $("#projectList").table().filterable();
+            $("#inputFilter").textinput();
+            $("#articleList,#projectList").table().filterable();
         });
     },
     template: /* html */`
