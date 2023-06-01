@@ -62,7 +62,7 @@ export default {
             <component :is="activeContent"></component>
         </div>
         <div data-role="footer" data-position="fixed">
-            <h2>{{ adviceOfDay }}</h2>
+            <p style="text-align: center">{{ adviceOfDay }}</p>
         </div>
         <div data-role="panel" id="left-panel" data-display="overlay">
         </div>
