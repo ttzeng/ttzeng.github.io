@@ -18,6 +18,10 @@ export default {
                   label: "成果發表",
                   enable: true,
                 },
+                { key: "tips",
+                  label: "提示",
+                  enable: true,
+                },
             ]
         }
     },
@@ -25,6 +29,7 @@ export default {
     components: {
         myLinks: defineAsyncComponent(()=>import("./myLinks.js")),
         myDeliverables: defineAsyncComponent(()=>import("./myDeliverables.js")),
+        tips: defineAsyncComponent(()=>import("./tips.js")),
     },
     // Hooks to be called at different stages of the instance's lifecycle.
     created() {

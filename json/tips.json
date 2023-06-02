@@ -1,0 +1,24 @@
+{
+    "pointers": [
+        { "topic": "How to read Capacitor Codes",
+          "type": "url",
+          "context": "http://www.4crawler.com/Diesel/CheapTricks/Tachometer/Capacitor.html"
+        },
+        { "topic": "Reset the Roomba battery 500 and 600 series",
+          "type": "url",
+          "context": "https://www.bateriasrobot.com/en/content/7-reset-the-roomba-battery"
+        },
+        { "topic": "What is Wyliodrin",
+          "type": "popup",
+          "context": "<a href='https://www.wyliodrin.com'>Wyliodrin</a> is a service that allows you to visually create applications for an embedded board and control it directly from the browser."
+        },
+        { "topic": "大型廢棄家具垃圾處理",
+          "type": "popup",
+          "context": "電洽(02)2514-7712 松山區環保局預約大型家具清運。"
+        },
+        { "topic": "一般公寓大樓經過停水後水壓變小解決方式",
+          "type": "url",
+          "context": "https://tinyurl.com/yefejftb"
+        }
+    ]
+}
