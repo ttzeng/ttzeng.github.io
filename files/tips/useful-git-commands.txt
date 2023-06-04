@@ -1,0 +1,48 @@
+<style> li { color:green } i { color: blue }</style>
+<li>Checkout the remote branch</li>
+  <code>
+    $ git fetch<br>
+    $ git checkout <i>&lt;remote_branch&gt;</i>
+  </code>
+<li>Configure upstream for a forked repository</li>
+  <code>
+    $ git remote -v <span style="color:green"># list the current configured remote repository</span><br>
+    $ git remote add upstream https://github.com/<i>&lt;Original_Upstream_Repository&gt;</i>
+  </code>
+<li>Rollback remote head</li>
+  <code>
+    $ git push -f origin <i>&lt;commit&gt;:&lt;branch&gt;</i>
+  </code>
+<li>Hard delete unpublished commits</li>
+  <code>
+    $git reset --hard <i>&lt;commit&gt;</i>
+  </code>
+<li>Push a new local branch to a remote repository and start tracking</li>
+  <code>
+    $ git push -u origin <i>&lt;feature_branch_name&gt;</i>
+  </code>
+<li>Checkout the pull request code</li>
+  Add the following to <i>.git/config</i> file<br>
+  <div style="background:lightgray">
+  <code>
+    [remote "origin"]<br>
+        fetch = +refs/heads/*:refs/remotes/origin/*<br>
+        url = git@github.com:joyent/node.git<br>
+        <b>fetch = +refs/pull/*/head:refs/remotes/origin/pr/*</b>
+  </code>
+  </div>
+  <code>
+    $ git fetch origin<br>
+    $ git checkout <i>pr/&lt;number&gt;</i>
+  </code>
+<li>Cherry-pick specific commits from other branch</li>
+  Single commit<br>
+  <code>
+    $ git checkout &lt;target-branch&gt;<br>
+    $ git cherry-pick <i>&lt;commit&gt;<br></i>
+  </code>
+  A range of commits<br>
+  <code>
+    $ git checkout -b &lt;new-branch-name&gt; &lt;commit-last&gt;<br>
+    $ git rebase --onto &lt;target-branch&gt; &lt;commit-start&gt;
+  </code>

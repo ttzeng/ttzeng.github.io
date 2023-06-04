@@ -12,6 +12,10 @@
           "type": "popup",
           "context": "<a href='https://www.wyliodrin.com'>Wyliodrin</a> is a service that allows you to visually create applications for an embedded board and control it directly from the browser."
         },
+        { "topic": "Useful git commands",
+          "type": "file",
+          "context": "/files/tips/useful-git-commands.txt"
+        },
         { "topic": "大型廢棄家具垃圾處理",
           "type": "popup",
           "context": "電洽(02)2514-7712 松山區環保局預約大型家具清運。"
