@@ -8,28 +8,26 @@ export default {
             techDomains: [],
             domainSelected: "",
             banks: [],
-            securities: []
+            securities: [],
+            living: [],
         }
     },
     components: {
         namedIcon
     },
     mounted() {
-        $.getJSON("/json/knowledge.json", (data) => {
+        $.getJSON("/json/links.json", (data) => {
             this.technologies = data.technologies;
             var domainSet = new Set();
             data.technologies.forEach(e => { domainSet.add(e.domain) });
             this.techDomains = Array.from(domainSet);
             this.learnings = data.learnings;
-        }).done(() => {
-            $("#domainSelector").selectmenu();
-            $("#groupKnowledge").collapsible();
-        });
-        $.getJSON("/json/finance.json", (data) => {
             this.banks = data.banks;
             this.securities = data.securities;
+            this.living = data.living;
         }).done(() => {
-            $("#groupFinance").collapsible();
+            $("#domainSelector").selectmenu();
+            $("[data-role='collapsible']").collapsible();
         });
     },
     template: /* html */`
@@ -58,6 +56,13 @@ export default {
         <div class="radiusNamedGroup">
             <span class="name">證券</span>
             <named-icon v-for="item in securities" :link="item.link" :icon="item.icon">{{item.title}}</named-icon>
+        </div>
+    </div>
+    <div id="groupLiving" data-role="collapsible">
+        <h1>其他</h1>
+        <div class="radiusNamedGroup">
+            <span class="name">生活</span>
+            <named-icon v-for="item in living" :link="item.link" :icon="item.icon">{{item.title}}</named-icon>
         </div>
     </div>`
 };

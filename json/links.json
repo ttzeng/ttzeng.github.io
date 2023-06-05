@@ -42,5 +42,51 @@
           "link": "https://us.etrade.com/home",
           "icon": "https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1476500866/ukg833gylj7adlryeuig.png"
         }
+    ],
+    "technologies": [
+        { "name": "Vue",
+          "domain": "Web",
+          "url": "https://vuejs.org/",
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vue.png/200px-Vue.png"
+        },
+        { "name": "Capacitor",
+          "domain": "Web",
+          "url": "https://capacitorjs.com/",
+          "icon": "https://bendyworks.com/assets/images/blog/2018-07-13-capacitor-elm-5c00aa6a.png"
+        },
+        { "name": "JQuery Mobile",
+          "domain": "Web",
+          "url": "https://jquerymobile.com/",
+          "icon": "https://alternativas-a.com/wp-content/uploads/alternativas-a-jQuery-Mobile-150x150.png"
+        },
+        { "name": "Kubernetes",
+          "domain": "Cloud",
+          "url": "https://kubernetes.io",
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/247px-Kubernetes_logo_without_workmark.svg.png"
+        }
+    ],
+    "learnings": [
+        { "title": "6分鐘英語",
+          "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+          "icon": "https://kbimages1-a.akamaihd.net/0730b0d5-8288-47cd-b50c-0bba819bbc3b/353/569/90/False/6-minute-english.jpg"
+        },
+        { "title": "W3C School",
+          "link": "https://www.w3schools.com",
+          "icon": "https://store-images.s-microsoft.com/image/apps.23455.13703813498146682.59ea0965-457f-440d-a02e-2a8fce6ff46e.94590cec-330a-403b-9bd5-66eb98425348"
+        }
+    ],
+    "living": [
+        { "title": "台灣電力公司",
+          "link": "https://www.taipower.com.tw",
+          "icon": "https://upload.wikimedia.org/wikipedia/zh/thumb/9/92/Taiwan_Power_Company_logo.svg/200px-Taiwan_Power_Company_logo.svg.png"
+        },
+        { "title": "臺北自來水",
+          "link": "https://twd.water.gov.taipei/billing/ps_18/index.aspx",
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Taipei_Water_Department.svg/160px-Taipei_Water_Department.svg.png"
+        },
+        { "title": "臺北市停車場",
+          "link": "https://monthtkt.pma.gov.tw/park",
+          "icon": "https://monthtkt.pma.gov.tw/park/imgs/Lagiimage/icon4.png"
+        }
     ]
 }
