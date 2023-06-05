@@ -6,6 +6,10 @@ export default {
         }
     },
     methods: {
+        tipsFromString(obj) {
+            // The argument is either a single string or an array of strings.
+            this.message = (obj.constructor === Array)? obj.join(' ') : obj;
+        },
         tipsFromFile(fname) {
             fetch(fname).then(res => res.text()).then(text => this.message = text);
         }
@@ -29,7 +33,7 @@ export default {
          data-filter-placeholder="Enter keyword...">
         <li v-for="item in pointers" class="ui-screen-hidden">
             <a v-if="item.type === 'url'" :href="item.context">{{item.topic}}</a>
-            <a v-else-if="item.type === 'popup'" href="#popup" data-rel="popup" @click="message=item.context">{{item.topic}}</a>
+            <a v-else-if="item.type === 'popup'" href="#popup" data-rel="popup" @click="tipsFromString(item.context)">{{item.topic}}</a>
             <a v-else-if="item.type === 'file'" href="#popup" data-rel="popup" @click="tipsFromFile(item.context)">{{item.topic}}</a>
         </li>
     </div>

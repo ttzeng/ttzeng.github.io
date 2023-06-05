@@ -12,6 +12,19 @@
           "type": "popup",
           "context": "<a href='https://www.wyliodrin.com'>Wyliodrin</a> is a service that allows you to visually create applications for an embedded board and control it directly from the browser."
         },
+        { "topic": "What is Capacitor JS",
+          "type": "popup",
+          "context": [ "<a href='https://capacitorjs.com'>Capacitor</a> is an open-source successor to Apache Cordova and Adobe PhoneGap",
+                       "from Ionic team, which allows you to build an application with Node.js and modern front-end web technologies,",
+                       "and run it everywhere including web browsers, desktop platforms, and native mobile devices (Android and iOS).",
+                       "Capacitor provides an API that allows developers to call native APIs through JavaScript and deploy their web app",
+                       "through the iOS App Stores and Google Play, it sits between the various APIs from the Browser, native iOS, and native",
+                       "Android, when developers call Capacitor APIs, the proxied APIs are actually called. It also provides a set of",
+                       "<strong>plugins</strong> to access native features of devices, such as the camera, without having to use the specific",
+                       "low-level code for each platform. Capacitor is designed to be dropped into any modern JavaScript application",
+                       "for deploying the app to native, and it’s framework-agnostic, and could be used with Angular, React, Preact,",
+                       "or no framework at all." ]
+        },
         { "topic": "Useful git commands",
           "type": "file",
           "context": "/files/tips/useful-git-commands.txt"
