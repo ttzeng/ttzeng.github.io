@@ -14,7 +14,7 @@
         },
         { "title": "國泰世華",
           "link": "https://cathaybk.com.tw/cathaybk/",
-          "icon": "https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.18169-9/16865101_675772255943449_1600685428659784289_n.png?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=s8YyDhv_hrYAX8qMa2m&_nc_ht=scontent.ftpe7-4.fna&oh=00_AfCWXjrIi8RTq0DaQ27RVk7xLpKCQs_8PD9FkgUvOcNicg&oe=647EC447"
+          "icon": "https://upload.wikimedia.org/wikipedia/zh/thumb/2/24/New_Lin_Yuan.svg/250px-New_Lin_Yuan.svg.png"
         },
         { "title": "中國信託",
           "link": "https://www.ctbcbank.com/",
@@ -87,6 +87,16 @@
         { "title": "臺北市停車場",
           "link": "https://monthtkt.pma.gov.tw/park",
           "icon": "https://monthtkt.pma.gov.tw/park/imgs/Lagiimage/icon4.png"
+        }
+    ],
+    "tools": [
+        { "title": "Adobe雲端服務",
+          "link": "https://cloud.acrobat.com",
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Adobe_Document_Cloud_icon_%282020%29.svg/220px-Adobe_Document_Cloud_icon_%282020%29.svg.png"
+        },
+        { "title": "網路速度測試",
+          "link": "https://fast.com",
+          "icon": "https://play-lh.googleusercontent.com/t0bYSn06VL_Swpv5WE0CNqqAXhwYJKHTlV_Nfg9Ss1YAN8FH3Ann2Pfw7H-gqW7vZ4Q=w240-h480"
         }
     ]
 }

@@ -10,6 +10,7 @@ export default {
             banks: [],
             securities: [],
             living: [],
+            tools: [],
         }
     },
     components: {
@@ -25,6 +26,7 @@ export default {
             this.banks = data.banks;
             this.securities = data.securities;
             this.living = data.living;
+            this.tools = data.tools;
         }).done(() => {
             $("#domainSelector").selectmenu();
             $("[data-role='collapsible']").collapsible();
@@ -60,6 +62,10 @@ export default {
     </div>
     <div id="groupLiving" data-role="collapsible">
         <h1>其他</h1>
+        <div class="radiusNamedGroup">
+            <span class="name">工具</span>
+            <named-icon v-for="item in tools" :link="item.link" :icon="item.icon">{{item.title}}</named-icon>
+        </div>
         <div class="radiusNamedGroup">
             <span class="name">生活</span>
             <named-icon v-for="item in living" :link="item.link" :icon="item.icon">{{item.title}}</named-icon>

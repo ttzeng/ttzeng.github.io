@@ -25,6 +25,14 @@
                        "for deploying the app to native, and it’s framework-agnostic, and could be used with Angular, React, Preact,",
                        "or no framework at all." ]
         },
+        { "topic": "What is Google Cloud Functions",
+          "type": "popup",
+          "context": [ "<a href='https://cloud.google.com/functions/docs/concepts/overview'>Google Cloud Functions</a>",
+                       "is a serverless execution environment for building and connecting cloud services.",
+                       "Cloud Functions are attached to events emitted from the cloud infrastructure and services,",
+                       "they are triggered when an event being watched is fired. Functions are automatically scaled and executed",
+                       "in a fully managed environment, there is no need to provision any infrastructure or worry about managing any servers." ]
+        },
         { "topic": "Useful git commands",
           "type": "file",
           "context": "/files/tips/useful-git-commands.txt"
