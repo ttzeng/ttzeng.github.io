@@ -47,6 +47,9 @@
         },
         { "url": "https://github.com/ttzeng/acrn-snap",
           "description": "Snap packaging for ACRN"
+        },
+        { "url": "https://github.com/ttzeng/chat-bot",
+          "description": "LINE 聊天機器人"
         }
     ]
 }
