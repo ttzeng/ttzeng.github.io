@@ -84,6 +84,14 @@
           "link": "https://twd.water.gov.taipei/billing/ps_18/index.aspx",
           "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Taipei_Water_Department.svg/160px-Taipei_Water_Department.svg.png"
         },
+        { "title": "大台北瓦斯報度數",
+          "link": "https://www.taipeigas.com.tw/service/oneself",
+          "icon": "https://www.taipeigas.com.tw/images/tglogo.png"
+        },
+        { "title": "欣欣天然氣報度數",
+          "link": "https://www.shinshingas.com.tw/consumer_diy.aspx",
+          "icon": "https://hocom.tw/Uploads/Album/s/245567_560083242587.jpg"
+        },
         { "title": "臺北市停車場",
           "link": "https://monthtkt.pma.gov.tw/park",
           "icon": "https://monthtkt.pma.gov.tw/park/imgs/Lagiimage/icon4.png"
