@@ -45,24 +45,44 @@
     ],
     "technologies": [
         { "name": "Vue",
-          "domain": "Web",
+          "domain": "Web Technology",
           "url": "https://vuejs.org/",
           "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vue.png/200px-Vue.png"
         },
         { "name": "Capacitor",
-          "domain": "Web",
+          "domain": "Web Technology",
           "url": "https://capacitorjs.com/",
           "icon": "https://bendyworks.com/assets/images/blog/2018-07-13-capacitor-elm-5c00aa6a.png"
         },
         { "name": "JQuery Mobile",
-          "domain": "Web",
+          "domain": "Web Technology",
           "url": "https://jquerymobile.com/",
           "icon": "https://alternativas-a.com/wp-content/uploads/alternativas-a-jQuery-Mobile-150x150.png"
         },
         { "name": "Kubernetes",
-          "domain": "Cloud",
+          "domain": "Cloud Technology",
           "url": "https://kubernetes.io",
           "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/247px-Kubernetes_logo_without_workmark.svg.png"
+        },
+        { "name": "Google Cloud Console",
+          "domain": "Development Resource",
+          "url": "https://console.cloud.google.com",
+          "icon": "https://www.gstatic.com/pantheon/images/welcome/supercloud.svg"
+        },
+        { "name": "Microsoft Azure Console",
+          "domain": "Development Resource",
+          "url": "https://portal.azure.com",
+          "icon": "https://logo-download.com/images/microsoft-azure9.png"
+        },
+        { "name": "LINE Developers Console",
+          "domain": "Development Resource",
+          "url": "https://developers.line.biz/console",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpUvx_kUgQhVwkcxLn_TNZFOVfVEyku2DVr8Ve2fBgEfW9m9IYBEbHK6RYstVDv8rv5XU&usqp=CAU"
+        },
+        { "name": "Dialogflow Console",
+          "domain": "Development Resource",
+          "url": "https://dialogflow.cloud.google.com/",
+          "icon": "https://avatars.githubusercontent.com/u/8170782?s=280&v=4"
         }
     ],
     "learnings": [
