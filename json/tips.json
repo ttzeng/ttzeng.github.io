@@ -37,6 +37,13 @@
                        "they are triggered when an event being watched is fired. Functions are automatically scaled and executed",
                        "in a fully managed environment, there is no need to provision any infrastructure or worry about managing any servers." ]
         },
+        { "topic": "What's different between Web Crawling (網路爬蟲) and Web Scraping (網頁抓取)",
+          "type": "popup",
+          "context": [ "<a href='https://en.wikipedia.org/wiki/Web_scraping'>Web scraping</a> is about extracting data from one or more",
+                       "websites, while <a href='https://en.wikipedia.org/wiki/Web_crawler'>web crawling</a> is about finding or discovering",
+                       "URLs or links on the web. Usually, in web data extraction projects, you first crawl - or discover - the URLs,",
+                       "download the HTML files, and then scrape the data from those files, and do something with it." ]
+        },
         { "topic": "Useful git commands",
           "type": "file",
           "context": "/files/tips/useful-git-commands.txt"

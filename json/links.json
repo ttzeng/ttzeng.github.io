@@ -23,6 +23,14 @@
         { "title": "合作金庫",
           "link": "https://www.tcb-bank.com.tw/",
           "icon": "https://my.tcb-life.com.tw/file/tcb-icon.jpg"
+        },
+        { "title": "玉山銀行",
+          "link": "https://ebank.esunbank.com.tw/index.jsp",
+          "icon": "https://yt3.googleusercontent.com/ytc/AIdro_l94dzeLeyKQh92W5e_nnAp8VRebZRE1zypKc5JMfElXw=s160-c-k-c0x00ffffff-no-rj"
+        },
+        { "title": "華南銀行",
+          "link": "https://netbank.hncb.com.tw",
+          "icon": "https://play-lh.googleusercontent.com/CtogXj4MeVk2EmPuY8836H6nOwX9A7-b_fV3A2mCMQhfkWYacyqgZuXt7BvXrA-RQF4=w240-h480-rw"
         }
     ],
     "securities": [
@@ -32,7 +40,7 @@
         },
         { "title": "華南永昌",
           "link": "https://www.entrust.com.tw/entrust/indexA.do",
-          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTq_qieyyKGOsi3hLExq2XKbhy9lff9RHj2f-NQzvFsuOvT7Fd&usqp=CAU"
+          "icon": "https://play-lh.googleusercontent.com/doTjFDPxpsw1nQ2LSc1EGCBr6hFBZFyNG7ABWpWR2QcbiVTdYaUPAs9VNWdltz-r3Ts=w240-h480-rw"
         },
         { "title": "Ameritrade",
           "link": "https://www.tdameritrade.com/home.page",
@@ -40,7 +48,7 @@
         },
         { "title": "Etrade",
           "link": "https://us.etrade.com/home",
-          "icon": "https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1476500866/ukg833gylj7adlryeuig.png"
+          "icon": "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1476500866/ukg833gylj7adlryeuig.png"
         }
     ],
     "technologies": [
@@ -83,12 +91,17 @@
           "domain": "Development Resource",
           "url": "https://dialogflow.cloud.google.com/",
           "icon": "https://avatars.githubusercontent.com/u/8170782?s=280&v=4"
+        },
+        { "name": "Repl.it Online IDE",
+          "domain": "Development Resource",
+          "url": "https://replit.com",
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/220px-New_Replit_Logo.svg.png"
         }
     ],
     "learnings": [
         { "title": "6分鐘英語",
           "link": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
-          "icon": "https://kbimages1-a.akamaihd.net/0730b0d5-8288-47cd-b50c-0bba819bbc3b/353/569/90/False/6-minute-english.jpg"
+          "icon": "https://m.media-amazon.com/images/I/515sHEZyVWL._SY466_.jpg"
         },
         { "title": "W3C School",
           "link": "https://www.w3schools.com",
@@ -110,7 +123,7 @@
         },
         { "title": "欣欣天然氣報度數",
           "link": "https://www.shinshingas.com.tw/consumer_diy.aspx",
-          "icon": "https://hocom.tw/Uploads/Album/s/245567_560083242587.jpg"
+          "icon": "https://s3.ap-northeast-1.amazonaws.com/file.web66.com.tw/110000/piclist/logo1.jpg"
         },
         { "title": "臺北市停車場",
           "link": "https://monthtkt.pma.gov.tw/park",
