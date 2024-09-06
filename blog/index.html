@@ -1,0 +1,11 @@
+---
+layout: jqm/default
+title: My Blogs
+---
+<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search title...">
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

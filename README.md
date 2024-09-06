@@ -3,9 +3,9 @@ My GitHub Pages
 
 ## Overview ##
 
-This repository contains the web assets used by the [GitHub Pages](https://github.com/skills/github-pages) to host my personal website at *[https://ttzeng.github.io/][1]*. GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files from a GitHub repository, and runs its predefined *[deploy-pages](https://github.com/actions/deploy-pages)* action to publish the rendered website on GitHub's `github.io` domain.
+This repository contains the web assets used by the [GitHub Pages](https://github.com/skills/github-pages) to host my personal website at *[https://ttzeng.github.io/][1]*. GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files from a GitHub repository, and runs its predefined *[deploy-pages](https://github.com/actions/deploy-pages)* action to publish the rendered website on GitHub's `github.io` domain. Since GitHub Pages uses [Jekyll][7] to process templates with [Liquid][8] templating language, and to transform [markdowns][9] text into static websites, the committed markdown posts would be added to my personal blogs easily.
 
-The web assets are based on [jQuery Mobile][2] framework, so that the rendered website is compatible on smartphone, tablet, and desktop platforms. *jQuery Mobile* is a HTML5-based user interface system designed to run responsive web sites across platforms. It also provides a set of touch-friendly UI [widgets](https://api.jquerymobile.com/category/widgets) and an AJAX-powered navigation system to support animated page transitions.
+The web assets are based on [jQuery Mobile][2] framework, so that the rendered website is compatible on smartphone, tablet, and desktop platforms. *jQuery Mobile* is a HTML5-based user interface system designed to run responsive web sites across platforms. It also provides a set of touch-friendly UI [widgets](https://api.jquerymobile.com/category/widgets) and an AJAX-powered navigation system to support animated page transitions. However, its development team announced that the project is deprecated and no loner supported after October 7, 2021.
 
 Not only publishing the website through GitHub Pages, the web assets also leverage [Capacitor.JS][3] for being packaged and run on Android, iOS, and Web. *Capacitor* is a cross-platform native runtime for building Web Native apps using modern web tooling. It allows developers to build mobile apps using web technologies based on Javascript/Typescript, and provides a set of [Capacitor plugins][4] and a native runtime for accessing to underlying native device features.
 
@@ -101,3 +101,6 @@ or build the native project directly [with the Gradle wrapper][6] command line t
 [4]: <https://capacitorjs.com/docs/apis> "Capacitor Plugins"
 [5]: <https://developer.android.com/studio/intro> "Android Studio"
 [6]: <https://developer.android.com/build/building-cmdline> "Build Android App from the Command Line"
+[7]: <https://jekyllrb.com> "Jekyll - A Static Site Generator"
+[8]: <https://shopify.github.io/liquid> "Liquid - A template language for flexible web apps"
+[9]: <https://www.markdownguide.org/basic-syntax> "Markdown Basic Syntax"

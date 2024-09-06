@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    {% include jqm/head.html %}
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <!-- Secify 'ui-title' class explicitly for headers with no heading but buttons -->
+            <span class="ui-title"></span>
+            <!-- Leverage jQuery Mobile's core features to load and view content from disparate
+                 pages into the initial document with support for standard navigation methods
+                 like anchors and the back button. -->
+            <a data-rel="back" class="ui-btn ui-btn-icon-notext ui-icon-back"></a>
+        </div>
+        <div role="main" class="ui-content">
+            {{ content }}
+        </div>
+    </div>
+</body>
+</html>
