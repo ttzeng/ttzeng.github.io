@@ -22,6 +22,10 @@ export default {
                   label: "提示",
                   enable: true,
                 },
+                { key: "streaming",
+                  label: "即時影像",
+                  enable: true,
+                },
             ]
         }
     },
@@ -30,6 +34,7 @@ export default {
         myLinks: defineAsyncComponent(()=>import("./myLinks.js")),
         myDeliverables: defineAsyncComponent(()=>import("./myDeliverables.js")),
         tips: defineAsyncComponent(()=>import("./tips.js")),
+        streaming: defineAsyncComponent(()=>import("./streaming.js")),
     },
     // Hooks to be called at different stages of the instance's lifecycle.
     created() {

@@ -139,5 +139,22 @@
           "link": "https://fast.com",
           "icon": "https://play-lh.googleusercontent.com/t0bYSn06VL_Swpv5WE0CNqqAXhwYJKHTlV_Nfg9Ss1YAN8FH3Ann2Pfw7H-gqW7vZ4Q=w240-h480"
         }
+    ],
+    "streaming": [
+        { "title": "象山看台北",
+          "link": "https://www.youtube.com/embed/z_fY1pj1VBw"
+        },
+        { "title": "碧山巖",
+          "link": "https://www.youtube.com/embed/uvwfYzwY8tg"
+        },
+        { "title": "大佳河濱公園",
+          "link": "https://www.youtube.com/embed/fP4ecxfsJos"
+        },
+        { "title": "大稻埕碼頭",
+          "link": "https://www.youtube.com/embed/Ndo_8RuefH4"
+        },
+        { "title": "貓空指南宮",
+          "link": "https://www.youtube.com/embed/215ahZ_0rTg"
+        }
     ]
 }
