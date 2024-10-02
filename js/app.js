@@ -64,7 +64,7 @@ export default {
                    :class="{ 'ui-btn-active': activeContent === tab.key,
                              'ui-icon-arrow-d': activeContent === tab.key }">
                     {{tab.label}}</a>
-                <a href="blog/index.html" class="ui-btn ui-btn-icon-left" data-transition="slide">隨手記</a>
+                <a href="blog/index.html" class="ui-btn ui-btn-icon-left" data-ajax="false">隨手記</a>
             </div>
         </div>
         <div role="main" class="ui-content">
