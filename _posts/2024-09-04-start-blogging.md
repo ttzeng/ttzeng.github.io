@@ -1,6 +1,7 @@
 ---
 layout: jqm/post
 title: Enable Jekyll for blogging
+style: /css/article.css
 ---
 # Blogging
 

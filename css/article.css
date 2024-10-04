@@ -1,3 +1,9 @@
+div.post-header>span.date {
+    float: inline-end;
+    font-style: italic;
+    color: olive;
+}
+
 p {
     text-align: justify;
 }
