@@ -2,6 +2,12 @@
 layout: jqm/default
 title: My Blogs
 ---
+<select data-native-menu="false" data-iconpos="left" onchange="onTagSelected(this)">
+    <option value="none">&nbsp;</option>
+    {% for tag in site.tags %}
+        <option value="{{ tag[0] }}">{{ tag[0] }}</option>
+    {% endfor %}
+</select>
 <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search title...">
     {% for post in site.posts %}
     <li>
@@ -9,3 +15,16 @@ title: My Blogs
     </li>
     {% endfor %}
 </ul>
+<script>
+    {% for tag in site.tags %}
+        {% for post in tag[1] %}
+            $("a[href='{{ post.url }}']").addClass("blog tag-{{ tag[0] }}");
+        {% endfor %}
+    {% endfor %}
+    function onTagSelected(e) {
+        let tag = $(e).find(":selected").val();
+        $("a.blog").removeClass("ui-screen-hidden");
+        if (tag !== "none")
+            $("a.blog").not(".tag-" + tag).addClass("ui-screen-hidden");
+    }
+</script>
