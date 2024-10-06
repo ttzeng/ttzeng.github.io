@@ -1,0 +1,13 @@
+.ui-controlgroup-horizontal .header-btn {
+    display: none;
+}
+
+@media only screen and (min-width: 800px) {
+    .ui-controlgroup-horizontal .header-btn {
+        display: inline-block;
+    }
+
+    .ui-controlgroup-horizontal .ui-select {
+        display: none;
+    }
+}

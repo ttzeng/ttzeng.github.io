@@ -56,7 +56,7 @@ export default {
             <span class="ui-title"></span>
             <div data-role="controlgroup" data-type="horizontal" class="ui-btn-left">
                 <a href="#left-panel" class="ui-btn ui-btn-icon-notext ui-icon-grid">No text</a>
-                <a class="ui-btn ui-btn-icon-left"
+                <a class="ui-btn ui-btn-icon-left header-btn"
                    v-for="tab in contents"
                    v-show="tab.enable"
                    @click="activeContent = tab.key"
@@ -64,6 +64,9 @@ export default {
                    :class="{ 'ui-btn-active': activeContent === tab.key,
                              'ui-icon-arrow-d': activeContent === tab.key }">
                     {{tab.label}}</a>
+                <select data-iconpos="left" v-model="activeContent" class="header-select">
+                    <option v-for="tab in contents" v-show="tab.enable" :value="tab.key">{{tab.label}}</option>
+                </select>
                 <a href="blog/index.html" class="ui-btn ui-btn-icon-left" data-ajax="false">隨手記</a>
             </div>
         </div>
