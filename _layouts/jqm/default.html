@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html>
     {% include jqm/head.html %}
@@ -9,7 +11,16 @@
             <!-- Leverage jQuery Mobile's core features to load and view content from disparate
                  pages into the initial document with support for standard navigation methods
                  like anchors and the back button. -->
-            <a data-rel="back" class="ui-btn ui-btn-icon-notext ui-icon-back"></a>
+            <div data-role="controlgroup" data-type="horizontal" class="ui-btn-left">
+                <a data-rel="back" class="ui-btn ui-btn-icon-notext ui-icon-back">Back</a>
+                {% if page.previous %}
+                <a data-ajax="false" class="ui-btn ui-btn-icon-notext ui-icon-carat-l" href="{{ page.previous.url }}">Previous</a>
+                {% endif %}
+                <a data-ajax="false" class="ui-btn ui-btn-icon-notext ui-icon-home" href="/">Home</a>
+                {% if page.next %}
+                <a data-ajax="false" class="ui-btn ui-btn-icon-notext ui-icon-carat-r" href="{{ page.next.url }}">Next</a>
+                {% endif %}
+            </div>
         </div>
         <div role="main" class="ui-content">
             {{ content }}
