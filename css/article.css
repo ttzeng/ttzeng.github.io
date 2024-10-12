@@ -4,8 +4,18 @@ div.post-header>span.date {
     color: olive;
 }
 
+div.language-plaintext {
+    padding-left: 2em;
+    background-color: ivory;
+}
+
 p {
     text-align: justify;
+}
+p code {
+    border-radius: 2px;
+    background-color: lightgray;
+    padding: 1px 2px;
 }
 
 span.gallery {

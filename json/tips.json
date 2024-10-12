@@ -1,5 +1,9 @@
 {
     "pointers": [
+        { "topic": "How to install multiple instances of Ubuntu in WSL2",
+          "type": "url",
+          "context": "https://cloudbytes.dev/snippets/how-to-install-multiple-instances-of-ubuntu-in-wsl2"
+        },
         { "topic": "How to read Capacitor Codes",
           "type": "url",
           "context": "http://www.4crawler.com/Diesel/CheapTricks/Tachometer/Capacitor.html"
