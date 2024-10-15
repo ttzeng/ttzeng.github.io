@@ -9,6 +9,9 @@ package-lock.json
 # Jekyll build artifacts
 /_site/
 
+# Jekyll drafts
+/_drafts/
+
 # Editor directories and files
 .idea/
 .vscode/

@@ -2,7 +2,7 @@
 layout: jqm/default
 title: My Blogs
 ---
-<select data-native-menu="false" data-iconpos="left" onchange="onTagSelected(this)">
+<select id="tags" data-native-menu="false" data-iconpos="left" onchange="onTagSelected(this)">
     <option value="none">&nbsp;</option>
     {% for tag in site.tags %}
         <option value="{{ tag[0] }}">{{ tag[0] }}</option>
@@ -16,6 +16,9 @@ title: My Blogs
     {% endfor %}
 </ul>
 <script>
+    $("#tags").html($("#tags option").sort(function (a, b) {
+        return a.text == b.text ? 0 : a.text < b.text ? -1 : 1
+    }));
     {% for tag in site.tags %}
         {% for post in tag[1] %}
             $("a[href='{{ post.url }}']").addClass("blog tag-{{ tag[0] }}");
