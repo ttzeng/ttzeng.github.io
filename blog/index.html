@@ -19,9 +19,15 @@ title: My Blogs
     $("#tags").html($("#tags option").sort(function (a, b) {
         return a.text == b.text ? 0 : a.text < b.text ? -1 : 1
     }));
+    const new_posts_within_days = 7;
+    let current = new Date(new Date().toUTCString());
     {% for tag in site.tags %}
         {% for post in tag[1] %}
             $("a[href='{{ post.url }}']").addClass("blog tag-{{ tag[0] }}");
+            if (current - new Date("{{ post.date }}") < new_posts_within_days * 86400000) {
+                /* use different icon set and black theme for posts updated within 7 days */
+                $("a[href='{{ post.url }}']").addClass("ui-icon-edit ui-alt-icon");
+            }
         {% endfor %}
     {% endfor %}
     function onTagSelected(e) {
