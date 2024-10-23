@@ -1,5 +1,9 @@
 ---
 layout: jqm/default
 ---
-<div class="post-header"><span class="date">{{ page.date | date: "%B %d, %Y" }}</span></div>
+<div class="post-header">
+    <span class="date">{{ page.date | date: "%B %d, %Y" }} 發布</span>
+    <span class="date">{% if page.update %}{{ page.update | date: "%B %d, %Y" }} 更新{% endif %}</span>
+    </span>
+</div>
 {{ content }}

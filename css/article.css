@@ -1,5 +1,9 @@
+div.post-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 div.post-header>span.date {
-    float: inline-end;
     font-style: italic;
     color: olive;
 }
@@ -27,12 +31,14 @@ span.gallery {
 span.float-left {
     width: 20%;
     float: left;
+    flex-direction: column;
     margin: 0 4px 4px 0;
     text-align: left;
 }
 span.float-right {
     width: 20%;
     float: right;
+    flex-direction: column;
     margin: 0 0 4px 4px;
     text-align: center;
 }
@@ -42,6 +48,10 @@ span.gallery-wrapper {
 }
 span.gallery-wrapper>img {
     width: 100%;
+}
+
+hr {
+    clear: both;
 }
 
 @media screen and (max-width: 800px) {

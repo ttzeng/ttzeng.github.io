@@ -8,7 +8,7 @@ title: My Blogs
         <option value="{{ tag[0] }}">{{ tag[0] }}</option>
     {% endfor %}
 </select>
-<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search title...">
+<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search title..." data-count-theme="b">
     {% for post in site.posts %}
     <li>
         <a href="{{ post.url }}" data-ajax="false">{{ post.title }}</a>
@@ -19,15 +19,19 @@ title: My Blogs
     $("#tags").html($("#tags option").sort(function (a, b) {
         return a.text == b.text ? 0 : a.text < b.text ? -1 : 1
     }));
-    const new_posts_within_days = 7;
-    let current = new Date(new Date().toUTCString());
+    let new_posts_in_msec = new Date(new Date().toUTCString()) - (7 * 24*60*60*1000);
+    {% for post in site.posts %}
+    if (new Date("{{ post.date }}") > new_posts_in_msec
+        {% if post.update %}|| new Date("{{ post.update }}") > new_posts_in_msec{% endif %}) {
+        /* show date in the count bubble for posts created / updated in 7 days */
+        $("a[href='{{ post.url }}']").append("<span class='ui-li-count'>" +
+            {% if post.update %}"{{ post.update | date: '%b %d, %Y'}}"{% else %}"{{ post.date | date: '%b %d, %Y' }}"{% endif %} +
+            "</span>");
+    }
+    {% endfor %}
     {% for tag in site.tags %}
         {% for post in tag[1] %}
             $("a[href='{{ post.url }}']").addClass("blog tag-{{ tag[0] }}");
-            if (current - new Date("{{ post.date }}") < new_posts_within_days * 86400000) {
-                /* use different icon set and black theme for posts updated within 7 days */
-                $("a[href='{{ post.url }}']").addClass("ui-icon-edit ui-alt-icon");
-            }
         {% endfor %}
     {% endfor %}
     function onTagSelected(e) {
