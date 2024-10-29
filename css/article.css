@@ -24,6 +24,8 @@ p code {
 
 span.gallery {
     display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
     text-align: center;
     font-style: italic;
     font-size: small;
@@ -42,8 +44,15 @@ span.float-right {
     margin: 0 0 4px 4px;
     text-align: center;
 }
+span.full-row {
+    clear: both;
+    flex-wrap: nowrap;
+}
+span.full-row>span.gallery-wrapper {
+    flex: 1 1 100%;
+}
 span.gallery-wrapper {
-    flex: 100%;
+    flex: 0 0 24%;
     margin: 2px;
 }
 span.gallery-wrapper>img {
@@ -54,7 +63,16 @@ hr {
     clear: both;
 }
 
-@media screen and (max-width: 800px) {
+/* 992px and 600px are the "typical breakpoints" for devices,
+   read the Responsive Web Design Tutorial on W3CSchool for details.
+   https://www.w3schools.com/css/css_rwd_intro.asp */
+@media screen and (max-width: 992px) {
+    span.gallery-wrapper {
+        flex: 0 0 49%;
+    }
+}
+
+@media screen and (max-width: 600px) {
     span.gallery {
         flex-direction: column;
     }
