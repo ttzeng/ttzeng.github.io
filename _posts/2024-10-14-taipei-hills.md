@@ -2,20 +2,22 @@
 layout: jqm/post
 title: 台北趴趴走
 tags: lives hiking
+update: 2024-10-29
 style: /css/article.css
 script: /js/article.js
 ---
 ## 蟾蜍山 (128m)
 
-<span class="gallery float-left">
-    ![][3]
-</span>
 <span class="gallery float-right">
     ![][4]
     ![][5]
 </span>
 [蟾蜍山][1]是羅斯福路旁，公館往新店、景美途中的一座小山丘，山頭的微波站非常醒目。山腳下是「煥民新村」，與大安森林公園改建前的眷村拆遷類似，背後都有大時代的故事辛酸。蟾蜍山在[韓戰][2]期間，美軍為協防台灣在附近成立了航空隊，而煥民新村就是當初搭建用以滿足軍隊住宿的需求。戰後隨著原軍眷遷移到萬隆軍宅或別處，現今煥民新村的眷舍許多早已老舊不堪。在住民與文史工作者的奔走下，台北市政府文化局將蟾蜍山列為文化景觀資產，成為台北市唯一完整保留的空軍眷村。除了山腳的煥民新村設有文化中心，週二至週日白天可供參觀，其他地區為軍事管制區或墳墓。雖然是個小山丘，山頂的微波通訊站位於管制區內，尋常百姓無法進入一窺究竟。
 
+<span class="gallery full-row">
+    ![][3]
+    ![][11]
+</span>
 ---
 
 ## 圓山 (36m)
@@ -30,6 +32,7 @@ script: /js/article.js
 [3]: https://lh3.googleusercontent.com/pw/AP1GczOtN2_4oHpmKDA0eE9GjG7bXUr1BepwbCHV9Xxk8goSFTuqzMW60j69N9BSFUJ9Dm7WlKKZx1O5Vv7-pwSHDh0JTEvL2-T2A7mzf0Pw7ZrLgaUnl04rss2zRx6EULZrdhj9tByAAunbpvhT7tnyUBOd=w1390-h894-s-no-gm "蟾蜍山微波站"
 [4]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/煥民新村介紹.jpg
 [5]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/煥民新村開放參觀時間.jpg
+[11]: https://lh3.googleusercontent.com/pw/AP1GczNdfzEqE06uMlC3OHvyeIZgcIIMweUrdtWfRaKPp6FHjhJoc8-xUg7Ga5sV36RNtjvOs69V_A4Rgt9Kr1cEHNiTB0t9j9Y_SAkHDzVAW3E9pldlz3EytMWc06xbsC3Y5o9hV3Bj0qI6aMIRroXvPg8V=w1435-h923-s-no-gm "煥民新村"
 
 [6]: https://zh.wikipedia.org/zh-tw/%E5%9C%93%E5%B1%B1 "維基百科 - 圓山"
 [7]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/圓山風景區全區平面圖.jpg
