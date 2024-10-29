@@ -41,6 +41,14 @@
                        "they are triggered when an event being watched is fired. Functions are automatically scaled and executed",
                        "in a fully managed environment, there is no need to provision any infrastructure or worry about managing any servers." ]
         },
+        { "topic": "What's different between GET and POST HTTP methods",
+          "type": "popup",
+          "context": [ "According to <a href='https://www.theserverside.com/video/GET-vs-POST-Whats-the-difference'>this article</a>,",
+                       "the key difference between GET and POST HTTP methods is that",
+                       "<strong>GET only retrieves data from a server while POST can modify or update server-side resources</strong>.",
+                       "While GET uses the URL query string to send the request to a server, POST sends the data stored in the HTTP request body.",
+                       "Read <a href='https://www.w3schools.com/tags/ref_httpmethods.asp'>more comparisons in this W3CSchools article</a>." ]
+        },
         { "topic": "What's different between Web Crawling (網路爬蟲) and Web Scraping (網頁抓取)",
           "type": "popup",
           "context": [ "<a href='https://en.wikipedia.org/wiki/Web_scraping'>Web scraping</a> is about extracting data from one or more",
