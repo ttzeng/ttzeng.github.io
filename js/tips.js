@@ -12,6 +12,10 @@ export default {
         },
         tipsFromFile(fname) {
             fetch(fname).then(res => res.text()).then(text => this.message = text);
+        },
+        switchToggle() {
+            $("#listTips").filterable("option", "filterReveal", $("#headerSwitch").prop("checked"))
+                          .filterable("refresh");
         }
     },
     mounted() {
@@ -20,6 +24,11 @@ export default {
         }).done(() => {
             $("#inputQuery").textinput();
             $("#listTips").listview();
+            // Below filterable widget is initially set to reveal mode,
+            // so set the flipswitch to ON everytime the component is mounted.
+            $("#headerSwitch").prop('checked', true)
+                              .flipswitch("refresh")
+                              .change(this.switchToggle);
             $("#popup").popup();
         });
     },

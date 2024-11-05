@@ -69,6 +69,9 @@ export default {
                 </select>
                 <a href="blog/index.html" class="ui-btn ui-btn-icon-left" data-ajax="false">隨手記</a>
             </div>
+            <div v-show="activeContent === 'tips'">
+                <input type="checkbox" data-role="flipswitch" data-mini="true" id="headerSwitch" data-wrapper-class="ui-float-right"/>
+            </div>
         </div>
         <div role="main" class="ui-content">
             <!-- Dynamic Components

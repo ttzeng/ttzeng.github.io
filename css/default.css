@@ -38,3 +38,9 @@ div.radiusNamedGroup>span.name {
 	padding: 2px 5px;
 	background-color: white;
 }
+
+.ui-header .ui-float-right {
+	position: absolute;
+	top: 0;
+	right: 5px;
+}
