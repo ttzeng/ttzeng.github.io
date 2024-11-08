@@ -67,6 +67,10 @@
         { "topic": "一般公寓大樓經過停水後水壓變小解決方式",
           "type": "url",
           "context": "https://tinyurl.com/yefejftb"
+        },
+        { "topic": "如何去除馬桶內側尿垢",
+          "type": "popup",
+          "context": "將200cc水與一大匙檸檬酸混合置入噴瓶，噴灑在馬桶內側的尿垢或水垢上，靜置一段時間，再用馬桶刷輕輕沖水刷洗。詳見<a href='https://health.tvbs.com.tw/life/349443'>這篇報導</a>。"
         }
     ]
 }

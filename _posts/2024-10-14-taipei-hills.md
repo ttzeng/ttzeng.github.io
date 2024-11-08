@@ -2,7 +2,7 @@
 layout: jqm/post
 title: 台北趴趴走
 tags: lives hiking
-update: 2024-10-29
+update: 2024-11-08
 style: /css/article.css
 script: /js/article.js
 ---
@@ -25,10 +25,13 @@ script: /js/article.js
 <span class="gallery float-left">
     ![][7]
 </span>
+[圓山][6]古名「圓山仔」，其實是基隆河南岸一個標高 36 公尺的小山丘，包含舊時的台北市兒童新樂園、現今的圓山遺址、中山足球場、與市立美術館等範圍，但卻以座落於基隆河北岸劍潭山的**圓山大飯店**為代表。而所謂的「圓山風景區」入口，其實指的是劍潭山步道<sup>[[9],[24],[27],[37]]</sup>，分別在公車劍潭站旁的「圓山6號線」、圓山飯店旁的「圓山4號線」、與北安路 77 巷的碧海山莊餐廳旁的「圓山1號線」。
 <span class="gallery float-right">
     ![][8]
 </span>
-[圓山][6]古名「圓山仔」，其實是基隆河南岸一個標高 36 公尺的小山丘，包含舊時的台北市兒童新樂園、現今的圓山遺址、中山足球場、與市立美術館等範圍，但卻以座落於基隆河北岸劍潭山的**圓山大飯店**為代表。而所謂的「圓山風景區」入口，其實指的是劍潭山步道<sup>[[9]]</sup>，分別在公車劍潭站旁的「圓山6號線」、圓山飯店旁的「圓山4號線」、與北安路 77 巷的碧海山莊餐廳旁的「圓山1號線」。其中圓山6號線一開始的階梯較為陡峭，較費體力。圓山4號線就在圓山飯店金龍廳旁，捷運圓山站前的玉門街有接駁車可達，最為輕鬆，但需配合[接駁車班次][10]，較無彈性。圓山1號線順著北安路 77 巷進去，途經碧海山莊與圓山飯店第二停車場，緩緩爬升的階梯該是最中庸的選擇。
+其中圓山6號線一開始的階梯較為陡峭，較費體力。圓山4號線就在圓山飯店金龍廳旁，捷運圓山站前的玉門街有接駁車可達，最為輕鬆，但需配合[接駁車班次][10]，較無彈性。圓山1號線順著北安路 77 巷進去，途經碧海山莊與圓山飯店第二停車場，緩緩爬升的階梯該是最中庸的選擇。
+
+前往圓山風景區可搭乘 612、277、33 等公車，其中 612、277 經中山橋過基隆河，至圓山6號線的入口劍潭站。公車 33 雖經大直橋過基隆河，但卻右轉北安路往捷運劍南站、美堤河濱公園附近等地。公車 612、277 亦可提前於大同大學站下車，再往捷運圓山站搭圓山飯店[接駁車][10]輕輕鬆鬆走圓山4號線。附帶一提，公車大同大學站臨近中山北路、民族東路口的 7-11 民美門市店，就在花博公園的對角，每當有大型客機降落時，門口即可拍攝飛機低空飛越地景的震撼畫面。
 
 ---
 
@@ -39,12 +42,77 @@ script: /js/article.js
 </span>
 [劍潭山][13]為五指山山脈最西側的小山丘，是[台灣小百岳][15]之一，因臨[劍潭][14]而取名劍潭山。[五指山山脈][12]為東北東－西南西走向，東起基隆海岸，西至台北圓山一帶沒入基隆河。劍潭山早年為軍事管制區，至今仍可看到許多廢棄軍事營舍與崗哨。台北市政府在軍事管制開放之後，設置有劍潭山步道及「三好十美，圓山 10 景」（三大主題步道與十大景點），以推廣觀光。**三好**之三條主題步道，分別是好玩步道、好神步道、與好美步道。而**十美**的十大景點，分別是圓山飯店、藍鵲地景景觀區、林間樂活區、昆蟲之森、崗哨體驗區、繁榮臺北、觀音夕照、老地方、飛羽的家、隧道體驗場。十美的官方簡介可參考[台北市政府工務局新聞稿][16]。
 
+<span class="gallery float-left" style="clear:left">
+    ![][18]
+</span>
+### 二美 - 藍鵲地景景觀區
+
+台灣特有種的台灣藍鵲<sup>[[25],[26]]</sup>又稱為長尾山娘，有著黑白相間的藍色長尾，並被選為台灣的國鳥。台灣藍鵲生長於低海拔山區，但由於生長環境太接近人類，有著棲息地被破壞的壓力。上次傍晚剛好在這裡拍攝到 C/2023 A3 紫金山-阿特拉斯彗星，這次幸運地驚鴻一瞥遇到台灣藍鵲。
+藍鵲地景景觀區即是圓山2號線的起點，順著階梯而上可達圓通巖，步道在此分叉為圓山3號線往四美昆蟲之森平台。不過劍潭山步道綿密，四通八達，都可到達圓山風景區最高處的「市區觀景平台」。
+
+<span class="gallery float-right">
+    ![][20]
+    ![][21]
+    中央廣播電台圓山微波站
+</span>
+從濱江市場拍攝飛機進場時會發現遠處的山頭有一座紅白相間的電塔，原來它是[中央廣播電台][19]的微波發射站。它就緊鄰市區觀景平台，並代表台灣以多種外語向國際發聲，以宣達台灣的自由、民主、及多元文化等價值與訊息。
+通過央廣微波站後可沿著陵線步道逕往老地方觀機平台，也可順便逛逛西坡的微風平台、北眼平台、與劍潭山三角點，再回到山陵線繼續探訪「六美 - 繁榮臺北」。
+
+<span class="gallery">
+    ![][29]
+    藍鵲地景景觀區拾階而上
+    ![][28]
+    圓通巖
+    ![][30]
+    市區觀景平台
+    ![][33]
+    飛機起降一覽無遺
+</span>
+
+### 六美 - 繁榮臺北
+
+劍潭山、劍南山、文間山皆屬五指山系。劍潭山的「市區觀景平台」既然已是其最高點，沿著山陵線即可到達劍南山與文間山，而六～八美即是利用陵線高處的開闊視野，所開發出的景觀點。其中，「六美」是一個自台北市西北角觀望台北盆地的景觀平台，可眺望大佳河濱公園、基隆河、甚至是台北 101 大樓， 用以見證台北的繁榮。然而，個人覺得其景觀與市區觀景平台並無大差異，若自圓山風景區登山口上來，不是為了觀音山的美景、又或參加[台北大縱走][39]，其實留在劍潭山親山步道到處探索，也是個不錯的選擇。
+
+### 七美 - 觀音夕照
+
+順著陵線走，「七美」則是下一個可眺望士林北投、與觀音山的景觀平台。這裡望過去的是捷運士林站、廣闊的關渡平原、與遠處的觀音山，視野開闊景觀優美，傍晚時刻，微風徐徐、夕陽緩降，天空如同被倒滿水彩般地漸漸暈暈開染了一片暈紅，可以看見觀音山美麗的落日。只不過，七美介於陵線步道的中間，前不著村後不著店，夕陽下山後天色暗的非常快，無論沿原路回圓山，或是繼續拜訪「八美 - 老地方」、再由通北街回家，都得摸黑下山，且通北街的登山步道坡度不若圓山和緩輕鬆。
+
+### 八美 - 老地方
+
+「八美」被打造成觀賞松山機場飛機起降的景觀平台，這裡在步道北側有一座長形木作涼亭供登山客休憩據點，南側則是個開放平台兼打卡點，可觀看飛機經由松山機場 10 跑道起降。與先前的劍潭山「市區觀景平台」不同的是，這裡的景觀較接近大直，若想看到飛機結合大直橋的地景，「八美 - 老地方」與「雞南山」可能是最佳的選擇。
+
+<span class="gallery full-row">
+    ![][34]
+    六美 - 繁榮臺北
+    ![][35]
+    七美 - 觀音夕照
+    ![][36]
+    八美 - 老地方觀機平台
+</span>
+
+<span class="gallery" style="clear: both">
+    ![][22]
+    圓山飯店
+    ![][23]
+    台灣藍鵲
+    ![][31]
+    微風平台
+    ![][32]
+    北眼平台
+    ![][38]
+    觀音夕照
+    ![][40]
+    市區觀景平台
+    ![][41]
+    老地方觀機平台
+</span>
+
 [1]: https://zh.wikipedia.org/zh-tw/蟾蜍山 "維基百科 - 蟾蜍山"
 [2]: https://zh.wikipedia.org/zh-tw/朝鲜战争 "維基百科 - 韓戰"
-[3]: https://lh3.googleusercontent.com/pw/AP1GczOtN2_4oHpmKDA0eE9GjG7bXUr1BepwbCHV9Xxk8goSFTuqzMW60j69N9BSFUJ9Dm7WlKKZx1O5Vv7-pwSHDh0JTEvL2-T2A7mzf0Pw7ZrLgaUnl04rss2zRx6EULZrdhj9tByAAunbpvhT7tnyUBOd=w1390-h894-s-no-gm "蟾蜍山微波站"
+[3]: https://lh3.googleusercontent.com/pw/AP1GczN-7dmSgVhzIiaWxzs3j-yX8J4GwZihJ4-jBvzDLsbEsPHwvhugoWNL9y2d6cNR5MXdRmUrG9gmQh9Ah4Q5AjN5OdcTyICSbnoHzp-XyWXVkhwbf37hHNuqniZmrcb9Q5T9NCwNyCrjbOxU94Ny1YZA=w1389-h893-s-no-gm "蟾蜍山微波站"
 [4]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/煥民新村介紹.jpg
 [5]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/煥民新村開放參觀時間.jpg
-[11]: https://lh3.googleusercontent.com/pw/AP1GczNdfzEqE06uMlC3OHvyeIZgcIIMweUrdtWfRaKPp6FHjhJoc8-xUg7Ga5sV36RNtjvOs69V_A4Rgt9Kr1cEHNiTB0t9j9Y_SAkHDzVAW3E9pldlz3EytMWc06xbsC3Y5o9hV3Bj0qI6aMIRroXvPg8V=w1435-h923-s-no-gm "煥民新村"
+[11]: https://lh3.googleusercontent.com/pw/AP1GczN3-UFhfKsmuEspMNlhq_Ag5kLIWre120yA1zBjxcE4m1Y6WrJ2xTLWxWUi8rm7YTMBX-JxHXFHDloo1C2LnkIuYEO97Y6MghCa0zQQDyA_ks_sYVz54mKQNLanWoAufzoJOu5BoawP_aP_DFILu9Kc=w1389-h893-s-no-gm "煥民新村"
 
 [6]: https://zh.wikipedia.org/zh-tw/%E5%9C%93%E5%B1%B1 "維基百科 - 圓山"
 [7]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/圓山風景區全區平面圖.jpg
@@ -58,3 +126,27 @@ script: /js/article.js
 [15]: https://zh.wikipedia.org/wiki/台灣小百岳列表 "維基百科 - 台灣小百岳"
 [16]: https://www.geo.gov.taipei/News_Content.aspx?n=23285747C0511EC4&sms=72544237BBE4C5F6&s=50A039F56797A343 "「三好十美，圓山10景」享受繁華寧靜之美，探索臺北發展史"
 [17]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/劍潭山三角點.jpg
+[18]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/圓山十美-藍鵲地景景觀區.jpg
+[19]: https://zh.wikipedia.org/zh-tw/中央廣播電臺 "維基百科 - 中央廣播電臺"
+[20]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/中央廣播電台介紹板.jpg
+[21]: https://lh3.googleusercontent.com/pw/AP1GczNa1lqyfnxGcYmW3UntmKfGG7nn7_PV1lD-BR6FL06FVAu6RiC2j_Iv63_nRvQdanf-cxn5WRUdUOKs7DG6ilTMuVrQVFufAX1j9XjW--mjGaC2ita1wDvunf-A3KazjzD3Y_b7yiY-tfdxw6c_KWrN=w630-h893-s-no-gm "中央廣播電台圓山微波站"
+[22]: https://lh3.googleusercontent.com/pw/AP1GczNzvJ-8ah2DBn7mYFFrYIR7zy5gnPQV6V6zjii2Qj5qCiT2HH3Zded0m2s-YDrQ14ft-lfb-DS57Xz_JVDBfh2QiHLPLrLomvc0TdMb-PV6YxWAuM2_JnI9O0dzNqI9w9T6Rl4DJDQaXoVrvNxq9DwX=w1581-h890-s-no-gm "圓山飯店"
+[23]: https://lh3.googleusercontent.com/pw/AP1GczN7D-JheXEWv44vuAldX1mmp6pUzrKQz7dIX-JdVdydoawThmg7cqRG_YEY38r2dlhVmQZZFMv2-YpnCj53QVCFAFzFQ00K6Bnb6XloS6Yo84AWbZXLxf-aII_oYubTwmUZeEiM2qddCdzS0uo_BMOz=w1586-h893-s-no-gm "藍鵲"
+[24]: https://hiking.biji.co/index.php?q=news&act=info&id=23428 "圓山十美-太原五百完人塚-圓山水神社健行筆記"
+[25]: https://zh.wikipedia.org/zh-tw/台灣藍鵲 "維基百科 - 台灣藍鵲"
+[26]: https://teia.tw/archives/natural_valley_star/ab2015-09-04 "認識台灣藍鵲"
+[27]: https://www.travel.taipei/zh-tw/news/details/28058 "登高望遠好去處 一起向劍潭山步道出發吧！"
+[28]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/圓山-圓通巖.jpg
+[29]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/劍潭山-藍鵲地景景觀區拾階而上.jpg
+[30]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/劍潭山-市區觀景平台.jpg
+[31]: https://lh3.googleusercontent.com/pw/AP1GczMZ0hDhq3qiotjBkr3m7rKhWsB6BlQR2g3oHaJrwdNZMSBVWtbLDizEHLGV1ANzkLy9yRO81-K5aHejchWZAg_QbJa4GnGzK3PvJAjAQrl70eS1731YGQ2CcfOhojGv3JNPoyWo4T1ljY1IackC6SVK=w1586-h893-s-no-gm "微風平台"
+[32]: https://lh3.googleusercontent.com/pw/AP1GczPBHU0QcGk0F1ESMUBx7VzjIOZ2jkBiLNRWcX8qeOdDuyWrUwx17LTRGUvuXAGSvzIpwKNKA-q_Xd4Cw53bqgJYwLH7uwhS9NfrX1K0d-KKAFE16HqbbDpm-BCfvV35BSEP0mgFa_bW4bRetq5UpYGt=w1576-h893-s-no-gm "北眼平台"
+[33]: https://lh3.googleusercontent.com/pw/AP1GczNVAzZkCyFP1_oQAk4wI-Nd_pDA6AwUODfIui-kQd9E1PMZ2gWAa90cadj9z6twHoHGv7zofD-W_DGyYGTx_uI_KBbnPlj9lYqACzEzpFXQ3_ybOq3AsNSOKeOtM9oKpd1o1fb6zQ41N7tpCfqOPMct=w1586-h893-s-no-gm "立榮航空AT72進場"
+[34]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/六美-繁榮台北實景.jpg
+[35]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/七美-觀音夕照旁實景.jpg
+[36]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/八美-老地方眺望松山機場.jpg
+[37]: https://hiking.biji.co/index.php?q=review&act=info&review_id=21504 "探索圓山十美＠劍潭山親山步道"
+[38]: https://lh3.googleusercontent.com/pw/AP1GczMc4tBxmQ7olKVKpO986FKSqs_0vI2EBPSFG13O4RG9tU5azzR3NVmnQBwHauxQrcIJeUfMPo4JC523Xcp2YZuUd-xAK8lfZu840H4o5ew9e7Tm_xAgjWGCuYVE3yIJQLXIM3ixF3z5Bb6oKseIDWcg=w1591-h895-s-no-gm "七美 - 觀音夕照"
+[39]: https://taipeigrandtrail.gov.taipei/ "台北大縱走"
+[40]: https://lh3.googleusercontent.com/pw/AP1GczOp_KWwbwEdRlkK8ZTmaoiKu0bzAvjXjgxgPiv2xSJgz-N-1SI6tbXWPPwM_BwI34svLIcI-iftiSQ9D2jpZbzf1wSFxt9Lr5gMt3VhzrEi5rKM3cFbe-hRb5pc4aMKHg1XjKJtb9tCyuzLrm-ex3OM=w1591-h895-s-no-gm "市區觀景平台巧遇黑鷹直升機"
+[41]: https://lh3.googleusercontent.com/pw/AP1GczPgdx7h4VNh2KTCFb9qKic8K7BbjL5Lu5-k7Mg-pXpOm1ZOrCCc3U6OGxleOEaztJxyXdNmHrvV2gjLNKKXRH6B9o-kth483xt6ARxOpHwcOkttrMOMjJBv0Oakx-2e3oPEvRFsr5iB3mHj8BuaYw7z=w1445-h818-s-no-gm "老地方觀機平台-華航起飛與大直橋"
