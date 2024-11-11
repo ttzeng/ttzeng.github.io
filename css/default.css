@@ -44,3 +44,20 @@ div.radiusNamedGroup>span.name {
 	top: 0;
 	right: 5px;
 }
+
+div.media-grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 0.5em;
+}
+div.media-grid:first-child {
+	/* reserve the first child for title */
+	color: darkgreen;
+	text-align: center;
+	font-style: italic;
+}
+@media screen and (max-width: 600px) {
+	div.media-grid {
+		grid-template-columns: auto;
+	}
+}
