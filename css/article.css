@@ -29,7 +29,7 @@ li {
 
 span.gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     align-items: baseline;
     text-align: center;
     font-style: italic;
@@ -57,11 +57,10 @@ span.full-row>span.gallery-wrapper {
     flex: 1 1 100%;
 }
 span.gallery-wrapper {
-    flex: 0 0 24%;
-    margin: 2px;
+    flex: 0 0 25%;
 }
 span.gallery-wrapper>img {
-    width: 100%;
+    width: 99%;
 }
 
 hr {
@@ -73,7 +72,7 @@ hr {
    https://www.w3schools.com/css/css_rwd_intro.asp */
 @media screen and (max-width: 992px) {
     span.gallery-wrapper {
-        flex: 0 0 49%;
+        flex: 0 0 50%;
     }
 }
 
