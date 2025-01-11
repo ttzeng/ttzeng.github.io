@@ -2,7 +2,7 @@
 layout: jqm/post
 title: 台北趴趴走
 tags: lives hiking
-update: 2024-12-13
+update: 2025-01-07
 style: /css/article.css
 script: /js/article.js
 ---
@@ -23,18 +23,25 @@ script: /js/article.js
 ## 圓山 (36m)
 
 <span class="gallery float-left">
-    ![][49]
-    臨濟護國禪寺
+    ![][8]
 </span>
 <span class="gallery float-right">
-    ![][8]
+    ![][49]
+    ![][52]
+    台北臨濟護國禪寺
+    ![][53]
+    華藏殿奉祀
+    ![][54]
+    彌陀殿奉祀
 </span>
 [圓山][6]古名「圓山仔」，其實是基隆河南岸一個標高 36 公尺的小山丘，包含舊時的台北市兒童新樂園、現今的圓山遺址、[臨濟護國禪寺][50]、中山足球場、與市立美術館等範圍，但卻以座落於基隆河北岸劍潭山的**圓山大飯店**為代表。而所謂的「圓山風景區」入口，其實指的是劍潭山步道
 <sup>[[9],[24],[27],[37],[47],[48]]</sup>
 ，分別在公車劍潭站旁的「圓山6號線」、圓山飯店旁的「圓山4號線」、與北安路 77 巷的碧海山莊餐廳旁的「圓山1號線」。
 其中圓山6號線一開始的階梯較為陡峭，較費體力。圓山4號線就在圓山飯店金龍廳旁，捷運圓山站前的玉門街有接駁車可達，最為輕鬆，但需配合[接駁車班次][10]，較無彈性。圓山1號線順著北安路 77 巷進去，途經碧海山莊與圓山飯店第二停車場，緩緩爬升的階梯該是最中庸的選擇。
 
-<span class="gallery" style="clear:left">
+創建於日治時期的`台北臨濟護國禪寺`，原為日本佛教臨濟宗鎮南山護國寺分院，是全台唯一保存良好的仿南北朝形式的木造佛寺，並被挑選為[台灣宗教百景][51]的100個指標性宗教景觀，已反映了先民開台墾荒的發展脈絡。臨濟護國禪寺、善導寺、及東和禪寺為日治時期台北市的三座大型佛寺，臨濟護國禪寺是唯一僅存的禪寺大殿，除了仿南北朝的形式，亦承襲了日本伽藍(寺廟建築用語)仿宋式禪寺格局，也是台灣唯一以「護國」命名的佛寺。
+
+<span class="gallery">
     ![][7]
     圓山風景區全區平面圖
     ![][45]
@@ -193,3 +200,7 @@ script: /js/article.js
 [48]: https://17jump.tw/jiantanshan/ "17jump旅遊攝 - 劍潭山親山步道｜30分登小百岳、老地方看飛機起降"
 [49]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/{{page.date|date:"%Y%m%d"}}/圓山-臨濟護國寺.jpg
 [50]: https://zh.wikipedia.org/wiki/臨濟護國禪寺 "維基百科 - 臨濟護國禪寺"
+[51]: https://taiwangods.moi.gov.tw/html/landscape/1_0011.aspx?i=10 "台灣宗教文化地圖 - 臨濟護國禪寺"
+[52]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20241014/台北臨濟護國禪寺.jpg
+[53]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20241014/臨濟護國禪寺-華藏殿.jpg
+[54]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20241014/臨濟護國禪寺-彌陀殿.jpg
