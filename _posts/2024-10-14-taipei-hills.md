@@ -2,7 +2,7 @@
 layout: jqm/post
 title: 台北趴趴走
 tags: lives hiking
-update: 2025-01-07
+update: 2025-01-12
 style: /css/article.css
 script: /js/article.js
 ---
@@ -51,6 +51,39 @@ script: /js/article.js
 其實，就像是「條條道路通羅馬」，圓山風景區既然包含台北市著名的圓山飯店地標，除了前述的三個步道入口有顯著的牌樓之外，亦有許多便道可上劍潭山。例如，公車劍潭站旁、福正宮土地公公後面的劍潭公園，就有一橫向的石階便道，入口兩側設有石狛犬，可達圓山飯店西側機車停車場，鄰近接駁車下車處，卻不用爬圓山6號線陡峭的石階。可以走過去圓山飯店東側金龍廳前欣賞飛機降落松山機場，再從圓山飯店後山步道口走圓山4號線。沒走幾步就發現右前方的涼亭非常眼熟，原來這裡就是圓山2號線的始點、二美的藍鵲地景景觀區，距後山登山口僅有數步之遙。再走幾步就是著北安路77巷上來的圓山1號線，也是「好神步道」的起點。
 後來發現，搭接駁車上山後、或自圓山4號線回到圓山飯店後山入口處再下山，無需走車道繞過圓山飯店建築，而是可以大大方方地穿過圓山飯店一樓大廳。除了夏天可以吹吹冷氣之外，也可以逛逛圓山飯店精品商店、並欣賞大廳的金龍裝置藝術與鋼琴演奏，體驗一下貴族生活。
 
+另一條步道是從**圓山水神社**
+<span class="gallery float-right" style="clear: right">
+    ![][57]
+    ![][60]
+    圓山水神社前遺失的公石狛犬原貌
+</span>
+<sup>
+[[69],[70],[71],[72]]
+</sup>
+上來的「北藝貢丸路線」原始山徑。圓山水神社是「草山水道系統」古蹟的一部分，是日治時期為了解決台北城人口遽增所需的用水問題而興建草山水道系統時，為祭悼當初傷亡的人員並守護水源，在圓山儲水池旁所建造的神社。神社前有石狛犬，但右邊的石狛犬已遺失，竟然有人會竊取那麼重的石狛犬雕像，真是無奇不有！
+步道有一部分為原始山徑，雖陡峭但設有攀繩輔助，其他部分則是較窄的石階梯。
+
+<span class="gallery">
+    ![][55]
+    13:31 北藝貢丸路線入口
+    ![][56]
+    13:39 草山水道系統之圓山儲水池（已廢棄）
+    ![][58]
+    圓山水神社
+    ![][59]
+    圓山水神社前公石狛犬
+    ![][61]
+    水神社
+    ![][62]
+    13:47 圓山水神社旁涼亭的飲水思源碑
+    ![][63]
+    13:47 北藝貢丸路線部分拉繩陡坡路段
+    ![][64]
+    13:55 北藝貢丸路線出口為「攬翠臺」
+    ![][65]
+    14:00 北藝貢丸路線原來就是微風平台與圓山早操會旁的便道
+</span>
+
 前往圓山風景區可搭乘 612、277、33 等公車，其中 612、277 經中山橋過基隆河，至圓山6號線的入口劍潭站。公車 33 雖經大直橋過基隆河，但卻右轉北安路往捷運劍南站、美堤河濱公園附近等地。公車 612、277 亦可提前於大同大學站下車，再往捷運圓山站搭圓山飯店[接駁車][10]輕輕鬆鬆走圓山4號線。附帶一提，公車大同大學站臨近中山北路、民族東路口的 7-11 民美門市店，就在花博公園的對角，每當有大型客機降落時，門口即可拍攝飛機低空飛越地景的震撼畫面。
 後來發現，飛機下降飛越花博時的高度還略嫌高，較難搭得上地景。與其他地方所拍攝的飛機照做比較，還是較喜歡劍潭山「市區觀景平台」所拍攝的飛機飛越新生高架橋、或建國北路的畫面。
 
@@ -78,6 +111,8 @@ script: /js/article.js
 
 <span class="gallery float-right">
     ![][46]
+    ![][66]
+    劍潭山親山步道拓印
 </span>
 ### 四美 - 昆蟲之森
 
@@ -87,8 +122,9 @@ script: /js/article.js
 
 四美再往上走是一區一區的森林休憩區，走在其間鳥語蟲鳴、綠意盎然，
 不知不覺就到了五美的崗哨體驗區、與劍潭山親山步道的拓印台。其實，劍潭山早年是軍事管制區已如前述，步道上會途經多個廢棄崗哨，這裡不若七美景點旁的崗哨有看頭，但可以給小朋友親山步道「到此一遊」的拓印證明。
+劍潭山親山步道的山陵線有所謂的「固化土步道」，是在土壤中加入泥土固化劑，混合經過一系列的物理化學反應後，產生膠結土粒、填充孔隙等作用，大幅度改善並提高土壤強度與耐久性。
 
-<span class="gallery" style="clear: both">
+<span class="gallery">
     ![][29]
     藍鵲地景景觀區拾階而上
     ![][28]
@@ -109,6 +145,10 @@ script: /js/article.js
     市區觀景平台
     ![][33]
     飛機起降一覽無遺
+    ![][67]
+    固化土步道
+    ![][68]
+    老地方觀機平台的「臺」字台北大縱走活動柱
 </span>
 
 <span class="gallery float-right" style="clear:right">
@@ -129,7 +169,7 @@ script: /js/article.js
 
 ### 八美 - 老地方
 
-「八美」被打造成觀賞松山機場飛機起降的景觀平台，這裡在步道北側有一座長形木作涼亭供登山客休憩據點，南側則是個開放平台兼打卡點，可觀看飛機經由松山機場 10 跑道起降。與先前的劍潭山「市區觀景平台」不同的是，這裡的景觀較接近大直，若想看到飛機結合大直橋的地景，「八美 - 老地方」與「雞南山」可能是最佳的選擇。
+「八美」被打造成觀賞松山機場飛機起降的景觀平台，這裡在步道北側有一座長形木作涼亭供登山客休憩據點，南側則是個開放平台兼打卡點，可觀看飛機經由松山機場 10 跑道起降，並有台北大縱走的「**臺**」字活動柱。與先前的劍潭山「市區觀景平台」不同的是，這裡的景觀較接近大直，若想看到飛機結合大直橋的地景，「八美 - 老地方」與「雞南山」可能是最佳的選擇。
 
 <span class="gallery" style="clear: both">
     ![][22]
@@ -204,3 +244,21 @@ script: /js/article.js
 [52]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20241014/台北臨濟護國禪寺.jpg
 [53]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20241014/臨濟護國禪寺-華藏殿.jpg
 [54]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20241014/臨濟護國禪寺-彌陀殿.jpg
+[55]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1331-北藝貢丸路線入口.jpg
+[56]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1339-草山水道系統-圓山儲水池.jpg
+[57]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1342-草山水道系統介紹.jpg
+[58]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1343-園山水神社.jpg
+[59]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1344-圓山水神社前公石狛犬.jpg
+[60]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1344-遺失的公石狛犬原貌.jpg
+[61]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1345-圓山水神社.jpg
+[62]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1347-元山水神社旁涼亭-飲水思源碑.jpg
+[63]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1347-北藝貢丸路線拉繩陡坡路段.jpg
+[64]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1355-北藝貢丸路線出口-攬翠臺.jpg
+[65]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1400-圓山早操會旁便道即為北藝貢丸路線.jpg
+[66]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1420-劍潭山親山步道拓印.jpg
+[67]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1422-固化土步道.jpg
+[68]: https://media.githubusercontent.com/media/ttzeng/ttzeng.github.io/master/doc/assets/20250112/1452-老地方-台北大縱走活動柱-臺.jpg
+[69]: https://udn.com/news/story/12395/6169474 "登劍潭山的秘密路線　逛「圓山水神社」古蹟直走原始山徑"
+[70]: https://17jump.tw/water-shrine/ "圓山水神社｜草山步道圓山活水頭，15分看狛犬及神社遺址"
+[71]: https://taiwantour.net/water-shrine/ "【圓山水神社】台北市秘境.路線.開放時間.交通"
+[72]: https://tinalife.tw/blog/post/water-shrine "台北景點 | 圓山水神社 – 捷運劍潭站旁的小祕境, 一探日治時期的水道系統"
