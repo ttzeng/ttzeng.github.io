@@ -46,3 +46,7 @@
     $ git checkout -b &lt;new-branch-name&gt; &lt;commit-last&gt;<br>
     $ git rebase --onto &lt;target-branch&gt; &lt;commit-start&gt;
   </code>
+<li>Prevent Git from escaping non-ASCII characters in filenames</li>
+  <code>
+    $ git config --global core.quotepath false
+  </code>
