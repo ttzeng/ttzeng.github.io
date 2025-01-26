@@ -26,11 +26,15 @@ export default {
             $("#listTips").listview();
             // Below filterable widget is initially set to reveal mode,
             // so set the flipswitch to ON everytime the component is mounted.
+            $("#headerSwitch").parent().css('display', 'inline');
             $("#headerSwitch").prop('checked', true)
                               .flipswitch("refresh")
                               .change(this.switchToggle);
             $("#popup").popup();
         });
+    },
+    unmounted() {
+        $("#headerSwitch").parent().css('display', '');
     },
     template: /* html */`
     <form>
