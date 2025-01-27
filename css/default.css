@@ -51,7 +51,7 @@ div.media-grid {
 	grid-template-columns: auto auto;
 	gap: 0.5em;
 }
-div.media-grid:first-child {
+div.media-grid>div {
 	/* reserve the first child for title */
 	color: darkgreen;
 	text-align: center;

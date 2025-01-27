@@ -142,24 +142,31 @@
     ],
     "streaming": [
         { "title": "象山看台北",
+          "type": "Webcam",
           "link": "https://www.youtube.com/embed/z_fY1pj1VBw"
         },
         { "title": "碧山巖",
+          "type": "Webcam",
           "link": "https://www.youtube.com/embed/uvwfYzwY8tg"
         },
         { "title": "大佳河濱公園",
+          "type": "Webcam",
           "link": "https://www.youtube.com/embed/fP4ecxfsJos"
         },
         { "title": "大稻埕碼頭",
+          "type": "Webcam",
           "link": "https://www.youtube.com/embed/Ndo_8RuefH4"
         },
         { "title": "貓空指南宮",
+          "type": "Webcam",
           "link": "https://www.youtube.com/embed/215ahZ_0rTg"
         },
         { "title": "Career Transition Strategy 101",
+          "type": "Career",
           "link": "https://www.youtube.com/embed/uAtGhred6Co"
         },
         { "title": "Modern Resume Development",
+          "type": "Career",
           "link": "https://www.youtube.com/embed/zKnh0dlFOT8"
         }
     ]
