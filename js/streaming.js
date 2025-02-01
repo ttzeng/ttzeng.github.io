@@ -12,19 +12,23 @@ export default {
             var categories = new Set();
             data.streaming.forEach(e => { categories.add(e.type) });
             this.categories = Array.from(categories);
-            this.activeCategory = this.categories[0];
         }).done(() => {
+            // Move the compiled navbar to the header as Vue compiled the template before running the script
+            $("#headerNavbar").append($("#scratchpad ul"));
             // Wait for DOM to update
             this.$nextTick(() => {
-                $("[data-role='navbar']").navbar();
+                $("#headerNavbar").navbar('destroy').navbar();
             });
         });
     },
+    unmounted() {
+        $("#headerNavbar").empty();
+    },
     template: /* html */`
-    <div data-role="navbar">
+    <div data-role="navbar" id="scratchpad" style="display: none">
         <ul>
             <li v-for="(category, index) in categories" @click="activeCategory = category">
-                <a :class="{ 'ui-btn-active' : index === 0 }">{{category}}</a>
+                <button>{{category}}</button>
             </li>
         </ul>
     </div>
