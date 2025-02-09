@@ -20,6 +20,10 @@
           "type": "multi-sections",
           "context": "/files/tips/retiree-positive-mindset.txt"
         },
+        { "topic": "How to quickly tryout JavaScript code",
+          "type": "multi-sections",
+          "context": "/files/tips/tryout-javascript.txt"
+        },
         { "topic": "What is Wyliodrin",
           "type": "popup",
           "context": "<a href='https://www.wyliodrin.com'>Wyliodrin</a> is a service that allows you to visually create applications for an embedded board and control it directly from the browser."
