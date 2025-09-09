@@ -64,6 +64,13 @@
                        "URLs or links on the web. Usually, in web data extraction projects, you first crawl - or discover - the URLs,",
                        "download the HTML files, and then scrape the data from those files, and do something with it." ]
         },
+        { "topic": "Why Windows time changes after booting Ubuntu on a dual-booting system",
+          "type": "popup",
+          "context": [ "While Windows stores local time in the hardware clock (RTC), Ubuntu/Linux stores UTC time in the hardware clock by default.",
+                       "When switching between operating systems, each interprets the hardware clock time differently and causes the time discrepanchy.",
+                       "Run this command in Ubuntu to prevent the time from changing when switching operating systems:<br>",
+                       "<code>timedatectl set-local-rtc 1 --adjust-system-clock</code>" ]
+        },
         { "topic": "Useful git commands",
           "type": "file",
           "context": "/files/tips/useful-git-commands.txt"
