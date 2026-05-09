@@ -22,7 +22,7 @@
         },
         { "title": "合作金庫",
           "link": "https://www.tcb-bank.com.tw/",
-          "icon": "https://my.tcb-life.com.tw/file/tcb-icon.jpg"
+          "icon": "https://cdn.brandfetch.io/idJcUFT_yt/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1668518687480"
         },
         { "title": "玉山銀行",
           "link": "https://ebank.esunbank.com.tw/index.jsp",
@@ -44,7 +44,7 @@
         },
         { "title": "Charles Schwab",
           "link": "https://client.schwab.com/",
-          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Charles_Schwab_Corporation_logo.png/200px-Charles_Schwab_Corporation_logo.png"
+          "icon": "https://www.logo.wine/a/logo/Charles_Schwab_Corporation/Charles_Schwab_Corporation-Logo.wine.svg"
         },
         { "title": "Etrade",
           "link": "https://us.etrade.com/home",
@@ -55,7 +55,7 @@
         { "name": "Vue",
           "domain": "Web Technology",
           "url": "https://vuejs.org/",
-          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vue.png/200px-Vue.png"
+          "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/vue-js-icon.png"
         },
         { "name": "Capacitor",
           "domain": "Web Technology",
@@ -65,12 +65,12 @@
         { "name": "JQuery Mobile",
           "domain": "Web Technology",
           "url": "https://jquerymobile.com/",
-          "icon": "https://alternativas-a.com/wp-content/uploads/alternativas-a-jQuery-Mobile-150x150.png"
+          "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/jquery-icon.png"
         },
         { "name": "Kubernetes",
           "domain": "Cloud Technology",
           "url": "https://kubernetes.io",
-          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/247px-Kubernetes_logo_without_workmark.svg.png"
+          "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/kubernetes-icon.png"
         },
         { "name": "Google Cloud Console",
           "domain": "Development Resource",
@@ -80,7 +80,7 @@
         { "name": "Microsoft Azure Console",
           "domain": "Development Resource",
           "url": "https://portal.azure.com",
-          "icon": "https://logo-download.com/images/microsoft-azure9.png"
+          "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/azure-icon.png"
         },
         { "name": "LINE Developers Console",
           "domain": "Development Resource",
@@ -95,7 +95,7 @@
         { "name": "Repl.it Online IDE",
           "domain": "Development Resource",
           "url": "https://replit.com",
-          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/220px-New_Replit_Logo.svg.png"
+          "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/replit-icon.png"
         }
     ],
     "learnings": [
@@ -111,11 +111,11 @@
     "living": [
         { "title": "台灣電力公司",
           "link": "https://www.taipower.com.tw",
-          "icon": "https://upload.wikimedia.org/wikipedia/zh/thumb/9/92/Taiwan_Power_Company_logo.svg/200px-Taiwan_Power_Company_logo.svg.png"
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS83V4SisN1CpIEjKJx9xBoN1zCHadk5dbeRA&s"
         },
         { "title": "臺北自來水",
-          "link": "https://twd.water.gov.taipei/billing/ps_18/index.aspx",
-          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Taipei_Water_Department.svg/160px-Taipei_Water_Department.svg.png"
+          "link": "https://mbr.water.gov.taipei/WTSVCL027F/Index",
+          "icon": "https://upload.wikimedia.org/wikipedia/zh/a/ae/Taiwan_Water_Corporation_Seal.svg"
         },
         { "title": "大台北瓦斯報度數",
           "link": "https://www.taipeigas.com.tw/service/oneself",
@@ -133,7 +133,7 @@
     "tools": [
         { "title": "Adobe雲端服務",
           "link": "https://cloud.acrobat.com",
-          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Adobe_Document_Cloud_icon_%282020%29.svg/220px-Adobe_Document_Cloud_icon_%282020%29.svg.png"
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/250px-Adobe_Creative_Cloud_rainbow_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20221002235840"
         },
         { "title": "網路速度測試",
           "link": "https://fast.com",
